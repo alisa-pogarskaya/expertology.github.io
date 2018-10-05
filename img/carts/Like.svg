@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Like Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cart-popular" transform="translate(-184.000000, -254.000000)" fill="#F05638">
+            <g id="Group">
+                <g transform="translate(0.000000, 239.000000)">
+                    <g id="Like" transform="translate(183.000000, 14.000000)">
+                        <g id="Like-Icon">
+                            <path d="M8.996,4.058 C6.925,-0.797 1.038,0.336 0.999,5.971 C0.978,9.065 3.802,10.222 5.683,11.459 C7.507,12.659 8.805,14.3 9.008,14.998 C9.183,14.314 10.628,12.626 12.317,11.425 C14.163,10.112 17.022,9.031 17.001,5.937 C16.962,0.289 10.972,-0.603 8.996,4.058 L8.996,4.058 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

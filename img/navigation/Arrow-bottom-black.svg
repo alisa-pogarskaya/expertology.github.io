@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow-bottom-black</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Arrow-bottom">
+            <g id="Arrow-bottom-black">
+                <circle id="Oval" fill="#000000" cx="30" cy="30" r="30"></circle>
+                <path d="M38.932,30.3065 C38.893,30.4105 38.836,30.5075 38.752,30.5915 L32.528,36.7645 C32.216,37.0765 31.709,37.0765 31.397,36.7645 C31.084,36.4555 31.084,35.9535 31.397,35.6435 L36.316,30.7625 L21.766,30.7625 C21.343,30.7625 21,30.4195 21,29.9965 C21,29.5735 21.343,29.2315 21.766,29.2315 L36.312,29.2315 L31.397,24.3545 C31.084,24.0445 31.084,23.5425 31.397,23.2325 C31.709,22.9225 32.216,22.9225 32.528,23.2325 L38.752,29.4065 C38.834,29.4885 38.892,29.5835 38.931,29.6855 C38.974,29.7805 39,29.8855 39,29.9965 C39,30.1075 38.974,30.2115 38.932,30.3065 L38.932,30.3065 Z" id="Shape" fill="#FFFFFF" transform="translate(30.000000, 29.999250) rotate(90.000000) translate(-30.000000, -29.999250) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

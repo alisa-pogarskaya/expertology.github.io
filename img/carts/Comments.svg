@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Comments Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cart-popular" transform="translate(-100.000000, -255.000000)" fill="#0EBAC5">
+            <g id="Group">
+                <g transform="translate(0.000000, 239.000000)">
+                    <g id="Comment" transform="translate(100.500000, 14.000000)">
+                        <g id="Comments-Icon" transform="translate(0.000000, 2.000000)">
+                            <path d="M1.5,0 L13.5,0 C14.313,0 15,0.687 15,1.5 L15,9.75 C15,10.563 14.313,11.25 13.5,11.25 L6.36,11.25 L3.935,13.918 C3.886,13.971 3.819,14 3.75,14 C3.72,14 3.689,13.994 3.66,13.983 C3.563,13.946 3.5,13.853 3.5,13.75 L3.5,11.25 L1.5,11.25 C0.687,11.25 0,10.563 0,9.75 L0,1.5 C0,0.687 0.687,0 1.5,0 L1.5,0 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

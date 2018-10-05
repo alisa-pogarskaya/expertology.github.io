@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="18px" viewBox="0 0 23 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow-left-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Guide-/-UI-Kit" transform="translate(-345.000000, -1610.000000)" fill="#FFFFFF">
+            <g id="04.-Misc-⚒" transform="translate(35.000000, 1385.000000)">
+                <g id="Arrow-Left" transform="translate(296.000000, 209.000000)">
+                    <g transform="translate(25.500000, 25.500000) rotate(-180.000000) translate(-25.500000, -25.500000) " id="Arrow-left-white">
+                        <g transform="translate(14.000000, 16.000000)">
+                            <path d="M22.911,10.404 C22.861,10.534 22.788,10.657 22.683,10.762 L14.731,18.712 C14.331,19.113 13.684,19.113 13.285,18.712 C12.886,18.315 12.886,17.668 13.285,17.268 L19.553,11 L1,11 C0.448,11 0,10.552 0,10 C0,9.447 0.448,9 1,9 L19.555,9 L13.285,2.729 C12.886,2.33 12.886,1.682 13.285,1.283 C13.684,0.884 14.331,0.884 14.731,1.283 L22.683,9.236 C22.789,9.341 22.862,9.465 22.912,9.596 C22.967,9.72 23,9.856 23,10 C23,10.144 22.966,10.28 22.911,10.404 L22.911,10.404 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

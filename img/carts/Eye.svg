@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="13px" viewBox="0 0 18 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Eye Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cart-popular" transform="translate(-6.000000, -254.000000)" fill="#FFC80A">
+            <g id="Group">
+                <g transform="translate(0.000000, 239.000000)">
+                    <g id="Eye-Icon" transform="translate(6.000000, 14.000000)">
+                        <g transform="translate(0.000000, 1.000000)" id="Shape">
+                            <path d="M9,0 C4.909,0 1.391,2.686 0,6.5 C1.391,10.313 4.909,13 9,13 C13.091,13 16.609,10.313 18,6.5 C16.609,2.686 13.091,0 9,0 L9,0 Z M9,10.833 C6.709,10.833 4.909,8.926 4.909,6.5 C4.909,4.073 6.709,2.166 9,2.166 C11.291,2.166 13.091,4.073 13.091,6.5 C13.091,8.926 11.291,10.833 9,10.833 L9,10.833 Z M9,3.9 C7.609,3.9 6.545,5.026 6.545,6.5 C6.545,7.973 7.609,9.1 9,9.1 C10.391,9.1 11.454,7.973 11.454,6.5 C11.454,5.026 10.391,3.9 9,3.9 L9,3.9 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,688 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <!--  Страница для IE -->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!--  Оттображать страницу в 100% -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Собственные стили -->
+        <link rel="stylesheet" href="css/bootstrap-grid-col-18.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <!-- подключение favicon -->
+        <link rel="shortcut icon" tipe="image/x-icone" href="favicon-16x16.ico">
+    </head>
+    <body>
+
+    <!-- ...................
+    
+    HEADER
+    
+    .................... -->
+
+        <div class="main-screen container">
+            <div class="main-screen__triangle-bottomleft"></div>
+            <div class="main-screen__triangle-bottomright"></div>
+            <img class="main-screen__arrow-bottom"src="img/navigation/Arrow-bottom-black.svg" alt=""> 
+            <!-- основная навигация -->
+            <header class="header-page">
+                        <div class="row justify-content-center align-items-center">
+                            <!-- логотип -->
+                            <div class="col-4">
+                                <a class="logo" href="index.html">
+                                    <img src="img/logotype/Logo-black.svg" alt="Логотип">
+                                </a>
+                            </div>
+                            <!-- меню -->
+                            <div class="col-12">
+                                <nav class="navigation-menu">
+                                    <ul class="topmenu">
+                                        <li><a href="">Рейтинги</a></li>
+                                        <li><a href="">Советы</a></li>
+                                    <li><a href="" class="down">Битва товаров</a>
+                                      <ul class="submenu">
+                                        <li><a href="">Рейтинги</a></li>
+                                        <li><a href="">Категории</a></li>
+                                      </ul>
+                                    </li>
+                                    <li><a href="">О журнале</a></li>
+                                    <li><a href="">Контакты</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- поиск меню -->
+                            <div class="col-1">
+                                <img class="search-header" src="img/navigation/Search-black.svg" alt="">
+                            </div>
+                        </div>
+                    <!-- выдвижной поиск меню-->
+                    <div class="row justify-content-center">
+                        <div class="col-18">
+                            <div class="search-header__hidden">
+                              <form action="#" method="post">
+                                <input type="text" value="" placeholder="найти" />
+                              </form>
+                            </div>
+                        </div>
+                    </div>
+            </header>
+            <!-- текстовый блок с главным поиском -->
+            <div class="row justify-content-center">
+                <div class="col-sm-10">
+                    <span class="main-screen__title-mini">Продуктивный поиск</span>
+                    <h1>Лучшие рейтинги и советы экспертов</h1>
+                    <form class="search" action="" method="post">
+                        <input class="search-text" type="search" name="" placeholder="поиск"  />
+                        <input class="submit" type="submit" name="" value="" />
+                    </form>
+                </div>
+            </div>
+            <!-- слайдер -->
+            <div class="main-screen__slider">
+                <input type="radio" name="point" id="slide1" checked>
+                <input type="radio" name="point" id="slide2">
+                <div class="slider">
+                    <div class="slides slide1"></div>
+                    <div class="slides slide2"></div>
+                </div>  
+                <div class="controls">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                </div>
+            </div>
+        </div>
+
+
+
+    <!-- ...................
+
+    MAIN
+
+    .................... -->
+
+        <main>
+            <div class="container">
+                <!-- Начало блока 1 -->
+                <!-- Заголовок -->
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+                        <h2>Популярное за неделю</h2>
+                    </div>
+                </div>
+                <!-- Карточки раздела "Рейтинги"-->
+                <div class="row justify-content-center">
+                    <div class="col-sm-4">
+                        <!-- Карточка 1 -->
+                        <div class="cart-popular">
+                            <img class="cart-popular__image" src="" alt="">
+                            <span class="cart-popular__title">11 лучших холодильников BOSCH</span>
+                            <div class="cart-popular__counters">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="cart-popular__view">
+                                            <img src="img/carts/Eye.svg" alt="">
+                                            <span>10K</span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="cart-popular__comment">
+                                            <img src="img/carts/Comments.svg" alt="">
+                                            <span>27</span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="cart-popular__like">
+                                            <img src="img/carts/Like.svg" alt="">
+                                            <span>32</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="button-main" href="">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- Карточка 2 -->
+                        <div class="cart-popular">
+                            <img class="cart-popular__image" src="" alt="">
+                            <span class="cart-popular__title">11 лучших холодильников BOSCH</span>
+                            <div class="cart-popular__counters">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="cart-popular__view">
+                                            <img src="img/carts/Eye.svg" alt="">
+                                            <span>10K</span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="cart-popular__comment">
+                                            <img src="img/carts/Comments.svg" alt="">
+                                            <span>27</span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="cart-popular__like">
+                                            <img src="img/carts/Like.svg" alt="">
+                                            <span>32</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="button-main" href="">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- Карточка 3-->
+                        <div class="cart-popular">
+                            <img class="cart-popular__image" src="" alt="">
+                            <span class="cart-popular__title">11 лучших холодильников BOSCH</span>
+                            <div class="cart-popular__counters">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="cart-popular__view">
+                                            <img src="img/carts/Eye.svg" alt="">
+                                            <span>10K</span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="cart-popular__comment">
+                                            <img src="img/carts/Comments.svg" alt="">
+                                            <span>27</span>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="cart-popular__like">
+                                            <img src="img/carts/Like.svg" alt="">
+                                            <span>32</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="button-main" href="">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Конец блока 1 -->
+
+                <!-- Начало блока 2 -->
+                <!-- Заголовок -->
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+                        <h2>Самые популярные рейтинги</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm">
+                        <section class="tabs">
+                            <input class="tabs__input" id="tab_1" type="radio" name="tab" checked="checked" />
+                            <input class="tabs__input" id="tab_2" type="radio" name="tab" />
+                            <input class="tabs__input" id="tab_3" type="radio" name="tab" />
+                            <div class="tabs__title-cont">
+                                <label class="tabs__title" for="tab_1" id="tab_l1">Бытовая техника</label>
+                                <label class="tabs__title" for="tab_2" id="tab_l2">Компьютеры</label>
+                                <label class="tabs__title" for="tab_3" id="tab_l3">Красота и здоровье</label>
+                                <label class="tabs__title" for="tab_2" id="tab_l2">Медицина</label>
+                                <label class="tabs__title" for="tab_3" id="tab_l3">Прочее</label>
+                            </div>
+                            <div class="tabs_cont">
+                                <div id="tab_c1">
+                                    <!-- Карточка 1 -->
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="cart-popular-main">
+                                                <img class="cart-popular-main__image" src="" alt="">
+                                                <span class="cart-popular-main__title">8 самых устойчивых духов для женщин</span>
+                                                <div class="cart-popular-main__counters">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__view">
+                                                                <img src="img/carts/Eye.svg" alt="">
+                                                                <span>10K</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__comment">
+                                                                <img src="img/carts/Comments.svg" alt="">
+                                                                <span>27</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__like">
+                                                                <img src="img/carts/Like.svg" alt="">
+                                                                <span>32</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="cart-popular-main">
+                                                <img class="cart-popular-main__image" src="" alt="">
+                                                <span class="cart-popular-main__title">8 самых устойчивых духов для женщин</span>
+                                                <div class="cart-popular-main__counters">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__view">
+                                                                <img src="img/carts/Eye.svg" alt="">
+                                                                <span>10K</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__comment">
+                                                                <img src="img/carts/Comments.svg" alt="">
+                                                                <span>27</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__like">
+                                                                <img src="img/carts/Like.svg" alt="">
+                                                                <span>32</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="cart-popular-main">
+                                                <img class="cart-popular-main__image" src="" alt="">
+                                                <span class="cart-popular-main__title">8 самых устойчивых духов для женщин</span>
+                                                <div class="cart-popular-main__counters">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__view">
+                                                                <img src="img/carts/Eye.svg" alt="">
+                                                                <span>10K</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__comment">
+                                                                <img src="img/carts/Comments.svg" alt="">
+                                                                <span>27</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__like">
+                                                                <img src="img/carts/Like.svg" alt="">
+                                                                <span>32</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="cart-popular-main">
+                                                <img class="cart-popular-main__image" src="" alt="">
+                                                <span class="cart-popular-main__title">8 самых устойчивых духов для женщин</span>
+                                                <div class="cart-popular-main__counters">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__view">
+                                                                <img src="img/carts/Eye.svg" alt="">
+                                                                <span>10K</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__comment">
+                                                                <img src="img/carts/Comments.svg" alt="">
+                                                                <span>27</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="cart-popular-main__like">
+                                                                <img src="img/carts/Like.svg" alt="">
+                                                                <span>32</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="tab_c2">Content of first second</div>
+                                <div id="tab_c3">Content of third tab</div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <!-- Конец блока 2 -->
+
+                <!-- Конец блока 3 -->
+                <!-- Заголовок -->
+                <div class="row justify-content-center">
+                    <div class="col-sm-12">
+                        <h2>Сравнение товаров</h2>
+                        <span class="mini-title">Фотоаппараты</span>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="cart-popular-comparison">
+                            <img class="cart-popular-comparison__image-left" src="" alt="">
+                            <img class="cart-popular-comparison__image-right" src="" alt="">
+                            <span class="cart-popular-comparison__title">Sony A5100</span>
+                            <span class="cart-popular-comparison__title">Против</span>
+                            <span class="cart-popular-comparison__title">Sony A6000</span>
+                                <div class="cart-popular-comparison__counters">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__view">
+                                                <img src="img/carts/Eye.svg" alt="">
+                                                <span>10K</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__comment">
+                                                <img src="img/carts/Comments.svg" alt="">
+                                                <span>27</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__like">
+                                                <img src="img/carts/Like.svg" alt="">
+                                                <span>32</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="cart-popular-comparison">
+                            <img class="cart-popular-comparison__image-left" src="" alt="">
+                            <img class="cart-popular-comparison__image-right" src="" alt="">
+                            <span class="cart-popular-comparison__title">Sony A5100</span>
+                            <span class="cart-popular-comparison__title">Против</span>
+                            <span class="cart-popular-comparison__title">Sony A6000</span>
+                                <div class="cart-popular-comparison__counters">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__view">
+                                                <img src="img/carts/Eye.svg" alt="">
+                                                <span>10K</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__comment">
+                                                <img src="img/carts/Comments.svg" alt="">
+                                                <span>27</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__like">
+                                                <img src="img/carts/Like.svg" alt="">
+                                                <span>32</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="cart-popular-comparison">
+                            <img class="cart-popular-comparison__image-left" src="" alt="">
+                            <img class="cart-popular-comparison__image-right" src="" alt="">
+                            <span class="cart-popular-comparison__title">Sony A5100</span>
+                            <span class="cart-popular-comparison__title">Против</span>
+                            <span class="cart-popular-comparison__title">Sony A6000</span>
+                                <div class="cart-popular-comparison__counters">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__view">
+                                                <img src="img/carts/Eye.svg" alt="">
+                                                <span>10K</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__comment">
+                                                <img src="img/carts/Comments.svg" alt="">
+                                                <span>27</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__like">
+                                                <img src="img/carts/Like.svg" alt="">
+                                                <span>32</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="cart-popular-comparison">
+                            <img class="cart-popular-comparison__image-left" src="" alt="">
+                            <img class="cart-popular-comparison__image-right" src="" alt="">
+                            <span class="cart-popular-comparison__title">Sony A5100</span>
+                            <span class="cart-popular-comparison__title">Против</span>
+                            <span class="cart-popular-comparison__title">Sony A6000</span>
+                                <div class="cart-popular-comparison__counters">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__view">
+                                                <img src="img/carts/Eye.svg" alt="">
+                                                <span>10K</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__comment">
+                                                <img src="img/carts/Comments.svg" alt="">
+                                                <span>27</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__like">
+                                                <img src="img/carts/Like.svg" alt="">
+                                                <span>32</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="mini-title">Смартфоны</span>
+                <div class="row justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="cart-popular-comparison">
+                            <img class="cart-popular-comparison__image-left" src="" alt="">
+                            <img class="cart-popular-comparison__image-right" src="" alt="">
+                            <span class="cart-popular-comparison__title">Sony A5100</span>
+                            <span class="cart-popular-comparison__title">Против</span>
+                            <span class="cart-popular-comparison__title">Sony A6000</span>
+                                <div class="cart-popular-comparison__counters">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__view">
+                                                <img src="img/carts/Eye.svg" alt="">
+                                                <span>10K</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__comment">
+                                                <img src="img/carts/Comments.svg" alt="">
+                                                <span>27</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__like">
+                                                <img src="img/carts/Like.svg" alt="">
+                                                <span>32</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="cart-popular-comparison">
+                            <img class="cart-popular-comparison__image-left" src="" alt="">
+                            <img class="cart-popular-comparison__image-right" src="" alt="">
+                            <span class="cart-popular-comparison__title">Sony A5100</span>
+                            <span class="cart-popular-comparison__title">Против</span>
+                            <span class="cart-popular-comparison__title">Sony A6000</span>
+                                <div class="cart-popular-comparison__counters">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__view">
+                                                <img src="img/carts/Eye.svg" alt="">
+                                                <span>10K</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__comment">
+                                                <img src="img/carts/Comments.svg" alt="">
+                                                <span>27</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__like">
+                                                <img src="img/carts/Like.svg" alt="">
+                                                <span>32</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="cart-popular-comparison">
+                            <img class="cart-popular-comparison__image-left" src="" alt="">
+                            <img class="cart-popular-comparison__image-right" src="" alt="">
+                            <span class="cart-popular-comparison__title">Sony A5100</span>
+                            <span class="cart-popular-comparison__title">Против</span>
+                            <span class="cart-popular-comparison__title">Sony A6000</span>
+                                <div class="cart-popular-comparison__counters">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__view">
+                                                <img src="img/carts/Eye.svg" alt="">
+                                                <span>10K</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__comment">
+                                                <img src="img/carts/Comments.svg" alt="">
+                                                <span>27</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__like">
+                                                <img src="img/carts/Like.svg" alt="">
+                                                <span>32</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="cart-popular-comparison">
+                            <img class="cart-popular-comparison__image-left" src="" alt="">
+                            <img class="cart-popular-comparison__image-right" src="" alt="">
+                            <span class="cart-popular-comparison__title">Sony A5100</span>
+                            <span class="cart-popular-comparison__title">Против</span>
+                            <span class="cart-popular-comparison__title">Sony A6000</span>
+                                <div class="cart-popular-comparison__counters">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__view">
+                                                <img src="img/carts/Eye.svg" alt="">
+                                                <span>10K</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__comment">
+                                                <img src="img/carts/Comments.svg" alt="">
+                                                <span>27</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="cart-popular-comparison__like">
+                                                <img src="img/carts/Like.svg" alt="">
+                                                <span>32</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Конец блока 3 -->
+            </div>
+        </main>
+
+        <!-- ...................
+
+        FOOTER
+
+        .................... -->
+
+        <footer class="footer-cont">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 justify-content-center">
+                        <a class="logo" href="index.html">
+                            <img src="img/logotype/Logo-white.svg" alt="Логотип">
+                        </a>
+                    </div>
+                </div>
+                    <div class="row">
+                    <div class="col-sm-6">
+                        <span class="footer-col__title">О компании</span>
+                        <ul class="footer-col__list">
+                            <li class="footer-col__link-cont">
+                                <a>О журнале</a>
+                            </li>
+                            <li class="footer-col__link-cont">
+                                <a>Реклама на сайте</a>
+                            </li>
+                            <li class="footer-col__link-cont">
+                                <a>Контакты</a>
+                            </li>
+                            <li class="footer-col__link-cont">
+                                <a>Карта сайта</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <span class="footer-col__title">Обработка данных</span>
+                        <ul class="footer-col__list">
+                            <li class="footer-col__link-cont"><a>Политика конфиденциальности</a></li>
+                            <li class="footer-col__link-cont"><a>Пользовательское соглашение</a></li>
+                            <li class="footer-col__link-cont"><a>Обработка данных</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5">
+                        <span class="footer-col__title">Получать новости</span>
+                        <form class="search-footer" action="" method="post">
+                            <input class="search-footer__text" type="search" name="" placeholder="E-mail"  />
+                            <input class="submit" type="submit" name="" value="" />
+                        </form>
+                    </div>
+
+                    <div class="col">
+                        <p class="footer-cont-copyrite">
+                            © Журнал Expertology составляет рейтинги и обзоры лучших товаров. Материалы сайта носят субъективный характер и не являются руководством к покупке. Необходима консультация специалиста. В случае нарушения авторских прав необходимо связаться с администрацией сайта любым удобным способом, которые указаны в разделе контакты. 18+. 2017—2018
+                        </p>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
