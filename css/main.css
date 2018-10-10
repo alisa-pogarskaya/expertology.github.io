@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: Arvo;
-    src: url('../fonts/Arvo/Arvo-Bold_201.ttf') format('truetype');
+    src: url('../fonts/arvo/Arvo-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 } 
