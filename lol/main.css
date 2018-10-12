@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: Arvo;
-    src: url('../fonts/Arvo/Arvo-Bold_201.ttf') format('truetype');
+    src: url('../fonts/arvo/Arvo-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 } 
@@ -156,6 +156,24 @@ p {
 
 img {
     max-width: 100%;
+}
+
+/* Добавленны новые общие стили */
+
+.main-cont {
+    padding: 45px 0px 0px 0px;
+}
+
+.main-cont--padding {
+    padding-bottom: 350px;
+}
+
+.title-page {
+    margin-bottom: 76px;
+}
+
+.paragraph-centre {
+    text-align: center;
 }
 
 /* ==========================================================================
@@ -408,8 +426,6 @@ img {
     color: #f2f2f2;
     background-color: #676767; 
 }
-
-/* -- Pagination 2 -- */
 
 /* -- Карточки -- */
 
@@ -730,6 +746,53 @@ img {
         display: block;
         text-align:center;
     }
+}
+
+/* Добавлены новые элементы */
+
+/* -- Breadcrumbs -- */
+
+.breadcrumbs {
+    width: 100%;
+    height: 40px;
+    padding-left: 2.9%;
+    background: #F3F3F3;
+}
+
+.breadcrumbs__cont {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumbs__list {
+    position: relative;
+    float: left;
+}
+
+.breadcrumbs__link {
+    display: inline-block;
+    padding: 8px 0px 8px 0px;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #4A4A4A;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.breadcrumbs__link:hover {
+    color: #FFC80A;
+    text-decoration: underline; 
+}
+
+.breadcrumbs__line {
+    margin: 0px 8px 0px 5px;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #4A4A4A;
+    text-decoration: none;
 }
 
 /* ==========================================================================
@@ -1173,5 +1236,18 @@ input[type="search"] {
     font-size: 0.875em; /*14px;*/
     color: rgba(159, 163, 167, .5);
     text-align: left;
+}
+
+/* ==========================================================================
+   404
+   ========================================================================== */
+
+.main-cont__background {
+    background: url(../img/background/BG-image.svg) no-repeat 0% 0%;
+    background-position: bottom;
+}
+
+.title-page--cont {
+    width: 46%;
 }
 

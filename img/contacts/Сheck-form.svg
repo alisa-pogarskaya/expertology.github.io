@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="13px" viewBox="0 0 19 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Сheck-form</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form" transform="translate(-375.000000, -38.000000)" fill="#0EBAC5">
+            <g id="Field-1">
+                <g transform="translate(30.000000, 35.000000)">
+                    <g id="Сheck-form" transform="translate(345.000000, 3.000000)">
+                        <path d="M8.14277789,13 C7.84431826,13 7.54585864,12.9069763 7.29547304,12.7149274 L0.510023493,7.51460209 C-0.0758787927,7.06648789 -0.171025318,6.24827937 0.297696511,5.68713637 C0.76641834,5.12599337 1.62073398,5.03697068 2.20463318,5.48408462 L7.97652186,9.90821208 L16.6218356,0.442799887 C17.115596,-0.0953372532 17.9729162,-0.151351528 18.5367846,0.320768788 C19.100653,0.79388936 19.1577409,1.61509864 18.6639805,2.15523629 L9.16435111,12.5558868 C8.89693929,12.8489615 8.52035936,13 8.14277789,13 L8.14277789,13 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

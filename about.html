@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Expertology - Главная</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Expertology - Главная">
+    <meta property="og:description" content="description">
+    <meta property="og:url" content="http://my-site.ru">
+    <meta property="og:site_name" content="Expertology">
+    <meta property="og:image" content="http://my-site.ru/images/vader.jpg">
+    <meta property="og:image:secure_url" content="http://my-site.ru/images/vader.jpg">
+    <meta property="og:image:width" content="940">
+    <meta property="og:image:height" content="529">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@Expertology">
+    <meta name="twitter:title" content="Expertology - Главная">
+    <meta name="twitter:description" content="description">
+    <meta name="twitter:image:src" content="http://my-site.ru/images/vader.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap-grid-col-18.css" type="text/css">
+    <link rel="stylesheet" href="css/main-next.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/about.css?v=0.0.0" type="text/css">
+    <script type="text/javascript" src="js/main-next.js?v=0.0.0" async defer></script>
+    <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoWBY-Gh17JaPwIBcEmv_lZOucvuAf2R0&callback=initMap"></script>
+  </head>
+  <body class="page"><svg width="0" height="0" style="position:absolute;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 23 18" id="icon-arrow" xmlns="http://www.w3.org/2000/svg"><path d="M22.911 10.404c-.05.13-.123.253-.228.358l-7.952 7.95a1.02 1.02 0 0 1-1.446 0 1.02 1.02 0 0 1 0-1.444L19.553 11H1a1 1 0 0 1 0-2h18.555l-6.27-6.271a1.023 1.023 0 0 1 1.446-1.446l7.952 7.953c.106.105.179.229.229.36.055.124.088.26.088.404 0 .144-.034.28-.089.404z"/></symbol><symbol viewBox="0 0 16 14" id="icon-comments" xmlns="http://www.w3.org/2000/svg"><path d="M2 0h12c.813 0 1.5.687 1.5 1.5v8.25c0 .813-.687 1.5-1.5 1.5H6.86l-2.425 2.668a.252.252 0 0 1-.275.065.249.249 0 0 1-.16-.233v-2.5H2a1.52 1.52 0 0 1-1.5-1.5V1.5C.5.687 1.187 0 2 0z" fill="#0EBAC5" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 17 12" id="icon-envelope" xmlns="http://www.w3.org/2000/svg"><path d="M16 12H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM8.502 6.002L12.504 2H4.5l4.002 4.002zm1.07 1.905l5.335-5.335C15.021 2.457 15 10 15 10H2s.072-7.6.174-7.498l5.074 5.074c.179.18 2.127.528 2.324.331z" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 18 13" id="icon-eye" xmlns="http://www.w3.org/2000/svg"><path d="M9 0C4.909 0 1.391 2.686 0 6.5 1.391 10.313 4.909 13 9 13s7.609-2.687 9-6.5C16.609 2.686 13.091 0 9 0zm0 10.833c-2.291 0-4.091-1.907-4.091-4.333 0-2.427 1.8-4.334 4.091-4.334 2.291 0 4.091 1.907 4.091 4.334 0 2.426-1.8 4.333-4.091 4.333zM9 3.9c-1.391 0-2.455 1.126-2.455 2.6 0 1.473 1.064 2.6 2.455 2.6s2.454-1.127 2.454-2.6c0-1.474-1.063-2.6-2.454-2.6z" fill="#FFC80A" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 16 14" id="icon-like" xmlns="http://www.w3.org/2000/svg"><path d="M7.996 3.058C5.925-1.797.038-.664-.001 4.971c-.021 3.094 2.803 4.251 4.684 5.488 1.824 1.2 3.122 2.841 3.325 3.539.175-.684 1.62-2.372 3.309-3.573 1.846-1.313 4.705-2.394 4.684-5.488-.039-5.648-6.029-6.54-8.005-1.879z" fill="#F05638" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 185 16" id="icon-logo-black" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M11.5 12.4V15H.66V1h10.58v2.6H3.88v3.04h6.5v2.52h-6.5v3.24h7.62zM39.64 1c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.027-.247 1.923-.74 2.69-.493.767-1.197 1.353-2.11 1.76-.913.407-1.99.61-3.23.61h-2.82V15h-3.24V1h6.06zm-.18 7.5c.973 0 1.713-.21 2.22-.63.507-.42.76-1.017.76-1.79 0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64V8.5h2.64zm22.3 3.9V15H50.92V1H61.5v2.6h-7.36v3.04h6.5v2.52h-6.5v3.24h7.62zm14.4 2.6l-2.7-3.9h-2.98V15h-3.24V1h6.06c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.04-.25 1.937-.75 2.69-.5.753-1.21 1.33-2.13 1.73l3.14 4.5h-3.48zm-.06-8.92c0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64v4.88h2.64c.973 0 1.713-.213 2.22-.64.507-.427.76-1.027.76-1.8zm11.44-2.44h-4.48V1h12.2v2.64h-4.48V15h-3.24V3.64zm18.94 11.6c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm13-11.48h3.24v11.36h7.02V15h-10.26V1zM141 15.24c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm22.46-4.7h2.96v5.68c-.76.573-1.64 1.013-2.64 1.32-1 .307-2.007.46-3.02.46-1.453 0-2.76-.31-3.92-.93a6.923 6.923 0 0 1-2.73-2.58c-.66-1.1-.99-2.343-.99-3.73s.33-2.63.99-3.73c.66-1.1 1.577-1.96 2.75-2.58 1.173-.62 2.493-.93 3.96-.93 1.227 0 2.34.207 3.34.62a6.61 6.61 0 0 1 2.52 1.8L164.6 5.1c-1-1.053-2.207-1.58-3.62-1.58-.893 0-1.687.187-2.38.56-.693.373-1.233.9-1.62 1.58s-.58 1.46-.58 2.34c0 .867.193 1.64.58 2.32.387.68.923 1.21 1.61 1.59.687.38 1.47.57 2.35.57.933 0 1.773-.2 2.52-.6v-4.1zm15.58 2.26V15h-3.24v-5l-5.42-9h3.44l3.74 6.22L181.3 1h3.18l-5.44 9.04z" fill="#212121"/><path d="M17.96 15h-3.72L24.56 1h3.5l-10.1 14zm.802-7.916l-4.334-6.06 3.68.002 2.615 3.687-1.96 2.371zm5.59 7.898l-2.692-3.87 1.937-2.352 4.493 6.231-3.738-.009z" fill="#F05638"/></g></symbol><symbol viewBox="0 0 185 16" id="icon-logo-white" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M11.5 12.4V15H.66V1h10.58v2.6H3.88v3.04h6.5v2.52h-6.5v3.24h7.62zM39.64 1c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.027-.247 1.923-.74 2.69-.493.767-1.197 1.353-2.11 1.76-.913.407-1.99.61-3.23.61h-2.82V15h-3.24V1h6.06zm-.18 7.5c.973 0 1.713-.21 2.22-.63.507-.42.76-1.017.76-1.79 0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64V8.5h2.64zm22.3 3.9V15H50.92V1H61.5v2.6h-7.36v3.04h6.5v2.52h-6.5v3.24h7.62zm14.4 2.6l-2.7-3.9h-2.98V15h-3.24V1h6.06c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.04-.25 1.937-.75 2.69-.5.753-1.21 1.33-2.13 1.73l3.14 4.5h-3.48zm-.06-8.92c0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64v4.88h2.64c.973 0 1.713-.213 2.22-.64.507-.427.76-1.027.76-1.8zm11.44-2.44h-4.48V1h12.2v2.64h-4.48V15h-3.24V3.64zm18.94 11.6c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm13-11.48h3.24v11.36h7.02V15h-10.26V1zM141 15.24c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm22.46-4.7h2.96v5.68c-.76.573-1.64 1.013-2.64 1.32-1 .307-2.007.46-3.02.46-1.453 0-2.76-.31-3.92-.93a6.923 6.923 0 0 1-2.73-2.58c-.66-1.1-.99-2.343-.99-3.73s.33-2.63.99-3.73c.66-1.1 1.577-1.96 2.75-2.58 1.173-.62 2.493-.93 3.96-.93 1.227 0 2.34.207 3.34.62a6.61 6.61 0 0 1 2.52 1.8L164.6 5.1c-1-1.053-2.207-1.58-3.62-1.58-.893 0-1.687.187-2.38.56-.693.373-1.233.9-1.62 1.58s-.58 1.46-.58 2.34c0 .867.193 1.64.58 2.32.387.68.923 1.21 1.61 1.59.687.38 1.47.57 2.35.57.933 0 1.773-.2 2.52-.6v-4.1zm15.58 2.26V15h-3.24v-5l-5.42-9h3.44l3.74 6.22L181.3 1h3.18l-5.44 9.04z" fill="#FFF"/><path d="M17.96 15h-3.72L24.56 1h3.5l-10.1 14zm.802-7.916l-4.334-6.06 3.68.002 2.615 3.687-1.96 2.371zm5.59 7.898l-2.692-3.87 1.937-2.352 4.493 6.231-3.738-.009z" fill="#F05638"/></g></symbol><symbol viewBox="0 0 18 18" id="icon-search" xmlns="http://www.w3.org/2000/svg"><path d="M464.268 20.705a5.347 5.347 0 0 0-7.563 0 5.347 5.347 0 0 0 0 7.563 5.347 5.347 0 0 0 7.563 0 5.347 5.347 0 0 0 0-7.563m5.562 13.125a1.072 1.072 0 0 1-1.513 0l-3.368-3.37c-2.933 2.193-7.092 1.986-9.756-.68a7.486 7.486 0 0 1 0-10.587 7.486 7.486 0 0 1 10.588 0c2.665 2.664 2.872 6.823.68 9.756l3.369 3.369a1.07 1.07 0 0 1 0 1.512" id="ha"/><use xlink:href="#ha" transform="translate(-453 -17)" fill-rule="evenodd"/></symbol></svg>
+
+  <!-- BEGIN HEADER-->
+    <header class="header header--black" role="banner">
+      <div class="row justify-content-sm-between justify-content-lg-center align-items-center">
+        <!-- логотип-->
+        <div class="col-sm-9 col-lg-4 order-lg-1"><a class="header__logo" href="main.html">
+          <svg class="icon icon-logo-white ">
+            <use xlink:href="#icon-logo-white"></use>
+          </svg></a>
+        </div>
+        <!-- меню-->
+        <div class="col-lg-12 order-sm-2 order-lg-2">
+          <nav class="navigation-menu navigation-menu--black" id="navigation-menu">
+            <ul class="topmenu">
+              <li><a href="#">Рейтинги</a></li>
+              <li><a href="#">Советы</a></li>
+              <li><a class="down" href="#">Битва товаров</a>
+                <ul class="submenu">
+                  <li class="navigation-menu--black-link"><a href="#">Рейтинги</a></li>
+                  <li class="navigation-menu--black-link"><a href="#">Категории</a></li>
+                </ul>
+              </li>
+              <li><a href="#">О журнале</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- поиск меню-->
+        <div class="col-sm-7 col-lg-1 order-lg-3">
+          <div class="header__controls">
+            <button class="button-hamburger" type="button" data-toggle="navigation-menu" aria-label="Меню">
+              <div class="button-hamburger__wrap">
+                <div class="button-hamburger__inner"></div>
+              </div>
+            </button>
+            <button class="button-search" type="button" data-header="search">
+              <img src="img/navigation/Search-white.svg" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- выдвижной поиск меню-->
+      <div class="row justify-content-center">
+        <div class="col-18">
+          <div class="search-header__hidden">
+            <form action="#" method="post">
+              <input type="text" value="" placeholder="найти">
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER-->
+    <!-- BEGIN BREADCRUMBS -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <div class="row">
+          <ol class="breadcrumbs__cont" itemscope itemtype="http://schema.org/BreadcrumbList">
+            <li class="breadcrumbs__list" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a class="breadcrumbs__link" itemprop="item" href="#">
+                <span itemprop="name">Главная</span>
+              </a>
+              <span class="breadcrumbs__line">/</span>
+              <meta itemprop="position" content="1" />
+            </li>
+             <li class="breadcrumbs__list" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+              <a class="breadcrumbs__link" itemprop="item" href="#">
+                <span itemprop="name">О компании</span>
+              </a>
+              <meta itemprop="position" content="3" />
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <!-- END BREADCRUMBS-->
+
+    <!-- ...................
+
+    MAIN
+
+    .................... -->
+
+    <main class="main-cont main-cont--padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col text-center">
+            <h1>О компании</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <p>Expertology – первый российский интернет-журнал, контент которого согласуется с десятками компетентных специалистов из различных отраслей рынка. Главная цель нашего проекта – дать людям предельно полное и точное описание того или иного продукта производства, донести информацию о самых лучших представителях рыночных сегментов.</p>
+          </div>
+        </div>
+        <!-- Блок "Команда" -->
+        <div class="row justify-content-center">
+          <div class="col text-center">
+            <h2 class="about-title">Команда</h2>
+          </div>
+        </div>
+        <p class="about-title__mini">Разумеется, организовать столь масштабный проект малой группой попросту не получится. Поэтому в штат журнала Expertology входит:</p>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="about-infografica">
+              <div class="about-infografica--image-block">
+                <div class="about-infografica--image"></div>
+                <img class="about-infografica--image-icone" src="img/about/20.svg" alt="#">
+              </div>
+              <span class="about-infografica--title">20 постоянных экспертов</span>
+              <p class="about-infografica--text">в обязанности которых входят оценивание и отбор товара в тематические рейтинги</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-infografica">
+              <div class="about-infografica--image-block">
+                <div class="about-infografica--image"></div>
+                <img class="about-infografica--image-icone" src="img/about/Notebook.svg" alt="#">
+              </div>
+              <span class="about-infografica--title">4 контент-менеджера</span>
+              <p class="about-infografica--text">занимающиеся подготовкой технического задания (ТЗ), мониторингом потребительского мнения и размещением информации в соответствующих категориях сайта</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-infografica">
+              <div class="about-infografica--image-block">
+                <div class="about-infografica--image"></div>
+                <img class="about-infografica--image-icone" src="img/about/Pencil.svg" alt="#">
+              </div>
+              <span class="about-infografica--title">3 редактора</span>
+              <p class="about-infografica--text">задачи которых заключаются в подготовке текстового контента на основании предоставленного ТЗ</p>
+            </div>
+          </div>
+        </div>
+        <!-- Блок "Составление рейтингов" -->
+        <div class="row justify-content-center">
+          <div class="col text-center">
+            <h2 class="about-title">Как мы составляем рейтинги</h2>
+          </div>
+        </div>
+        <p class="about-title__mini">В общем случае процесс подготовки рейтинга выглядит следующим образом.</p>
+        <!-- BEGIN CART-INFO 1 -->
+        <div class="rating-process">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+              <img  class="rating-process__image" src="img/about/rating process-right.png" alt="#">
+            </div>
+              <div class="col-md-6">
+                <div class="rating-process__text-cont-right">
+                  <span class="rating-process__title">1-й этап</span>
+                  <p class="rating-process__text">Перед тем как составленное техническое задание попадает на исполнение редакторам, предлагаемый к обзору контент тщательно проверяется и выносится на двухэтапное открытое голосование экспертов.</p>
+                </div>
+              </div>
+              <div class="rating-process__number-cont">
+                <span class="rating-process__number rating-process__number-right">01</span>
+              </div>
+          </div>
+        </div>
+        <!-- END CART-INFO 1 -->
+        <!-- BEGIN CART-INFO 2 -->
+        <div class="rating-process">
+          <div class="row justify-content-center align-items-center">
+              <div class="col-md-6">
+                <div class="rating-process__text-cont-left">
+                  <span class="rating-process__title rating-process__title--left">2-й этап</span>
+                  <p class="rating-process__text rating-process__text--left">Перед тем как составленное техническое задание попадает на исполнение редакторам, предлагаемый к обзору контент тщательно проверяется и выносится на двухэтапное открытое голосование экспертов.</p>
+                </div>
+              </div>
+              <div class="col-md-6 ">
+                <img  class="rating-process__image" src="img/about/rating process-left.png" alt="#">
+              </div>
+              <div class="rating-process__number-cont">
+                <span class="rating-process__number rating-process__number-left">02</span>
+              </div>
+          </div>
+        </div>
+        <!-- END CART-INFO 2 -->
+        <!-- BEGIN CART-INFO 3 -->
+        <div class="rating-process">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+              <img  class="rating-process__image" src="img/about/rating process-right.png" alt="#">
+            </div>
+              <div class="col-md-6">
+                <div class="rating-process__text-cont-right">
+                  <span class="rating-process__title">3-й этап</span>
+                  <p class="rating-process__text">В то же время команда контент-менеджеров осуществляет анализ сотен и тысяч отзывов пользователей, размещенных на тематических площадках, сайтах магазинов и открытых форумах. С помощью внедренного программного комплекса происходит автоматизированная агрегация собранных данных, на основании которой выносится итоговая потребительская оценка.</p>
+                </div>
+              </div>
+              <div class="rating-process__number-cont">
+                <span class="rating-process__number rating-process__number-right">03</span>
+              </div>
+          </div>
+        </div>
+        <!-- END CART-INFO 3 -->
+        <!-- BEGIN CART-INFO 4 -->
+        <div class="rating-process">
+          <div class="row justify-content-center align-items-center">
+              <div class="col-md-6">
+                <div class="rating-process__text-cont-left">
+                  <span class="rating-process__title rating-process__title--left">4-й этап</span>
+                  <p class="rating-process__text rating-process__text--left">На втором этапе голосования эксперты формируют корректирующие коэффициенты, опираясь на немаловажный фактор мнения пользователей (и готовую потребительскую оценку).</p>
+                </div>
+              </div>
+              <div class="col-md-6 ">
+                <img  class="rating-process__image" src="img/about/rating process-left.png" alt="#">
+              </div>
+              <div class="rating-process__number-cont">
+                <span class="rating-process__number rating-process__number-left">04</span>
+              </div>
+          </div>
+        </div>
+        <!-- END CART-INFO 4 -->
+        <!-- BEGIN CART-INFO 5 -->
+        <div class="rating-process">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+              <img  class="rating-process__image" src="img/about/rating process-right.png" alt="#">
+            </div>
+              <div class="col-md-6">
+                <div class="rating-process__text-cont-right">
+                  <span class="rating-process__title">5-й этап</span>
+                  <p class="rating-process__text">Все изменения позиций товаров в рейтингах фиксируются и подвергаются конечной сверке, после чего формируются в техническое задание и отправляется на заключительный этап кропотливой командной работы – написание яркого и достоверного текста для широкой аудитории.</p>
+                </div>
+              </div>
+              <div class="rating-process__number-cont">
+                <span class="rating-process__number rating-process__number-right">05</span>
+              </div>
+          </div>
+        </div>
+        <!-- END CART-INFO 5 -->
+        <div class="row justify-content-center align-items-center">
+          <span class="caption">С уважением, команда интернет-журнала «Экспертология»!</span>
+        </div>
+        
+      </div>
+    </main>
+    <!-- BEGIN FOOTER-->
+    <footer class="footer footer--no-margin" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col"><a class="footer__logo" href="main.html">
+              <svg class="icon icon-logo-white ">
+                <use xlink:href="#icon-logo-white"></use>
+              </svg></a></div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="footer__title">О компании</div>
+            <ul class="footer__list">
+              <li class="footer__list__item"><a href="#" target="_blank">О журнале</a></li>
+              <li class="footer__list__item"><a href="#" target="_blank">Реклама на сайте</a></li>
+              <li class="footer__list__item"><a href="#" target="_blank">Контакты</a></li>
+              <li class="footer__list__item"><a href="#" target="_blank">Карта сайта</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="footer__title">Обработка данных</div>
+            <ul class="footer__list">
+              <li class="footer__list__item"><a href="#" target="_blank">Политика конфиденциальности</a></li>
+              <li class="footer__list__item"><a href="#" target="_blank">Пользовательское соглашение</a></li>
+              <li class="footer__list__item"><a href="#" target="_blank">Обработка данных</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <div class="footer__title">Получать новости</div>
+            <form class="footer__form" id="footer-form">
+              <input class="footer__form__text" type="email" name="email" placeholder="E-mail">
+              <button class="button-mail" type="submit">
+                <svg class="icon icon-envelope ">
+                  <use xlink:href="#icon-envelope"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="footer__copyright">© Журнал Expertology составляет рейтинги и обзоры лучших товаров. Материалы сайта носят субъективный характер и не являются руководством к покупке. Необходима консультация специалиста. В случае нарушения авторских прав необходимо связаться с администрацией сайта любым удобным способом, которые указаны в разделе контакты. 18+. 2017—2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER-->
+  </body>
+</html>

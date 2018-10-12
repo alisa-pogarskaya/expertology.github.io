@@ -1,0 +1,14 @@
+/* ==========================================================================
+  404
+  ========================================================================== */
+
+.main-cont__background {
+  background: url(../img/background/BG-image.svg) no-repeat;
+  background-position: bottom;
+  /*background-size: cover;*/
+  background-size: 100% auto;
+}
+.title-page--cont {
+  width: 46%;
+  text-align: center;
+}

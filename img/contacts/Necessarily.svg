@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="9px" viewBox="0 0 10 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Necessarily</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Helvetica" font-size="30.2682812" font-weight="normal">
+        <g id="Form" transform="translate(-379.000000, -156.000000)" fill="#F9593A">
+            <g id="Field-3">
+                <g transform="translate(31.000000, 148.000000)">
+                    <g id="Necessarily" transform="translate(347.000000, 0.000000)">
+                        <g id="Group" transform="translate(0.000000, 1.000000)">
+                            <text id="*">
+                                <tspan x="0" y="29">*</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
