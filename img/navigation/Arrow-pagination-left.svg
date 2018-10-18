@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow-pagination-left</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Panigation" transform="translate(-7.000000, -12.000000)" fill="#EDEDED">
+            <g id="Arrow-left-">
+                <g transform="translate(17.000000, 21.000000) rotate(-180.000000) translate(-17.000000, -21.000000) translate(0.000000, 4.000000)">
+                    <g id="Arrow-pagination-left" transform="translate(8.000000, 8.000000)">
+                        <path d="M18.911,9.40619237 C18.861,9.53497594 18.787,9.65776958 18.683,9.7615951 L10.731,17.7012521 C10.331,18.0995826 9.684,18.0995826 9.285,17.7012521 C8.886,17.3019232 8.886,16.657007 9.285,16.2576781 L15.553,10.0001941 L1,10.0001941 C0.448,10.0001941 0,9.55294574 0,9.00187185 C0,8.45079796 0.448,8.00354959 1,8.00354959 L15.555,8.00354959 L9.285,1.74307067 C8.886,1.34474009 8.886,0.698825585 9.285,0.299496679 C9.684,-0.0998322264 10.331,-0.0998322264 10.731,0.299496679 L18.683,8.23915364 C18.789,8.34397748 18.862,8.46776944 18.912,8.59954798 C18.967,8.72234162 19,8.85811345 19,9.00187185 C19,9.14662858 18.966,9.28140209 18.911,9.40619237 L18.911,9.40619237 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

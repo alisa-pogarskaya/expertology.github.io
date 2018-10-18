@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="177px" height="13px" viewBox="0 0 177 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Filtr</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filtr" transform="translate(-1.000000, 0.000000)">
+            <g>
+                <text id="НОВЫЕ-РЕЙТИНГИ" font-family="Montserrat-Bold, Montserrat" font-size="12" font-weight="bold" letter-spacing="2.4000001" fill="#292929">
+                    <tspan x="0.979998665" y="12">НОВЫЕ РЕЙТИНГИ</tspan>
+                </text>
+                <g id="Filter" transform="translate(173.500000, 8.000000) rotate(-270.000000) translate(-173.500000, -8.000000) translate(171.500000, 3.500000)" fill="#FFC80A">
+                    <path d="M3.98506852,4.93108936 C4.03011573,5.21588491 3.97461114,5.51870549 3.79040026,5.73861092 L1.29269381,8.72445793 C0.996669338,9.07684736 0.517238405,9.07684736 0.222018351,8.72445793 C-0.0740061171,8.37026599 -0.0740061171,7.79797114 0.222018351,7.44468046 L2.32797503,4.9265831 L0.236497809,2.42831328 C-0.0579178308,2.0768251 -0.0579178308,1.5054315 0.236497809,1.15304207 C0.530913449,0.800652643 1.00873555,0.800652643 1.30315119,1.15304207 L3.79120467,4.12717281 C3.97541555,4.34707823 4.03011573,4.64809631 3.98506852,4.93108936 L3.98506852,4.93108936 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
