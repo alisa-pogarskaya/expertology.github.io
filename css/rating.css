@@ -1,7 +1,6 @@
 /* ==========================================================================
-  advice
+  page rating
   ========================================================================== */
-
 /* BEGIN SORTING */
 .sorting-cont {
 	float: right;
@@ -97,11 +96,6 @@ select {
 	text-transform: uppercase;
 	text-decoration: none;
 }
-@media (max-width: 768px) {
-	.menu-sorting__link {
-		margin: 0 auto;
-	}
-}
 /* END MENU */
 .cont-catalog {
 	display: inline-block;
@@ -121,6 +115,10 @@ select {
 }
 .cart-cont {
   margin-bottom: 20px;
+}
+/* !!!!!!!!! */
+.cart-popular_main--catalog {
+  max-width: 300px;
 }
 .cart-popular__text {
 	margin-bottom: 33px;

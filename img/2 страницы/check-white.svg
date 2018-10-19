@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>check-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Confirm" transform="translate(-10.000000, -11.000000)" fill="#FFFFFF">
+            <g id="check-white">
+                <g transform="translate(9.000000, 10.000000)">
+                    <path d="M7.747,12.682 C7.537,12.892 7.26,12.985 6.986,12.974 C6.711,12.985 6.434,12.892 6.224,12.682 L1.285,7.73 C0.887,7.331 0.887,6.684 1.285,6.285 C1.684,5.885 2.33,5.885 2.729,6.285 L6.95,10.517 L15.242,1.285 C15.641,0.885 16.287,0.885 16.686,1.285 C17.085,1.684 17.085,2.331 16.686,2.73 L7.747,12.682 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
