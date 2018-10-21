@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="7px" viewBox="0 0 6 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title></title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-8.2%" y="-6.8%" width="116.7%" height="114.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0569236866 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="268" height="295" rx="6"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cart-categories-battle-1" transform="translate(-112.000000, -171.000000)">
+            <g id="Cart-rating">
+                <g>
+                    <g id="Cart-standart" filter="url(#filter-1)">
+                        <g id="Img">
+                            <g id="Mask">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                            </g>
+                        </g>
+                        <path d="M117.152348,174.464281 C117.152348,174.513389 117.127795,174.568634 117.090964,174.605465 L114.23047,177.465959 C114.193639,177.50279 114.138394,177.527343 114.089286,177.527343 C114.040179,177.527343 113.984934,177.50279 113.948103,177.465959 L113.641183,177.159039 C113.604353,177.122209 113.579799,177.073102 113.579799,177.017856 C113.579799,176.968749 113.604353,176.913503 113.641183,176.876673 L116.053574,174.464281 L113.641183,172.05189 C113.604353,172.01506 113.579799,171.959814 113.579799,171.910707 C113.579799,171.8616 113.604353,171.806354 113.641183,171.769524 L113.948103,171.462604 C113.984934,171.425773 114.040179,171.40122 114.089286,171.40122 C114.138394,171.40122 114.193639,171.425773 114.23047,171.462604 L117.090964,174.323098 C117.127795,174.359929 117.152348,174.415174 117.152348,174.464281 Z" id="" fill="#000000"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
