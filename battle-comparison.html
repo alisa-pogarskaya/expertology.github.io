@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <title>Expertology - Главная</title>
+    <title>Expertology - Битва товаров</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
     <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Expertology - Главная">
+    <meta property="og:title" content="Expertology - Битва товаров">
     <meta property="og:description" content="description">
     <meta property="og:url" content="http://my-site.ru">
     <meta property="og:site_name" content="Expertology">
@@ -17,168 +17,901 @@
     <meta property="og:image:height" content="529">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@Expertology">
-    <meta name="twitter:title" content="Expertology - Главная">
+    <meta name="twitter:title" content="Expertology - Битва товаров">
     <meta name="twitter:description" content="description">
     <meta name="twitter:image:src" content="http://my-site.ru/images/vader.jpg">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap-grid-col-18.css" type="text/css">
     <link rel="stylesheet" href="css/main-next.css?v=0.0.0" type="text/css">
-    <link rel="stylesheet" href="css/contacts.css.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/card-comparison.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/feature-comparison.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/specification.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/plus-minus.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/offer-block.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/reviews.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/form.css?v=0.0.0" type="text/css">
     <script type="text/javascript" src="js/main-next.js?v=0.0.0" async defer></script>
     <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoWBY-Gh17JaPwIBcEmv_lZOucvuAf2R0&callback=initMap"></script>
   </head>
-  <body class="page"><svg width="0" height="0" style="position:absolute;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 23 18" id="icon-arrow" xmlns="http://www.w3.org/2000/svg"><path d="M22.911 10.404c-.05.13-.123.253-.228.358l-7.952 7.95a1.02 1.02 0 0 1-1.446 0 1.02 1.02 0 0 1 0-1.444L19.553 11H1a1 1 0 0 1 0-2h18.555l-6.27-6.271a1.023 1.023 0 0 1 1.446-1.446l7.952 7.953c.106.105.179.229.229.36.055.124.088.26.088.404 0 .144-.034.28-.089.404z"/></symbol><symbol viewBox="0 0 16 14" id="icon-comments" xmlns="http://www.w3.org/2000/svg"><path d="M2 0h12c.813 0 1.5.687 1.5 1.5v8.25c0 .813-.687 1.5-1.5 1.5H6.86l-2.425 2.668a.252.252 0 0 1-.275.065.249.249 0 0 1-.16-.233v-2.5H2a1.52 1.52 0 0 1-1.5-1.5V1.5C.5.687 1.187 0 2 0z" fill="#0EBAC5" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 17 12" id="icon-envelope" xmlns="http://www.w3.org/2000/svg"><path d="M16 12H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM8.502 6.002L12.504 2H4.5l4.002 4.002zm1.07 1.905l5.335-5.335C15.021 2.457 15 10 15 10H2s.072-7.6.174-7.498l5.074 5.074c.179.18 2.127.528 2.324.331z" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 18 13" id="icon-eye" xmlns="http://www.w3.org/2000/svg"><path d="M9 0C4.909 0 1.391 2.686 0 6.5 1.391 10.313 4.909 13 9 13s7.609-2.687 9-6.5C16.609 2.686 13.091 0 9 0zm0 10.833c-2.291 0-4.091-1.907-4.091-4.333 0-2.427 1.8-4.334 4.091-4.334 2.291 0 4.091 1.907 4.091 4.334 0 2.426-1.8 4.333-4.091 4.333zM9 3.9c-1.391 0-2.455 1.126-2.455 2.6 0 1.473 1.064 2.6 2.455 2.6s2.454-1.127 2.454-2.6c0-1.474-1.063-2.6-2.454-2.6z" fill="#FFC80A" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 16 14" id="icon-like" xmlns="http://www.w3.org/2000/svg"><path d="M7.996 3.058C5.925-1.797.038-.664-.001 4.971c-.021 3.094 2.803 4.251 4.684 5.488 1.824 1.2 3.122 2.841 3.325 3.539.175-.684 1.62-2.372 3.309-3.573 1.846-1.313 4.705-2.394 4.684-5.488-.039-5.648-6.029-6.54-8.005-1.879z" fill="#F05638" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 185 16" id="icon-logo-black" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M11.5 12.4V15H.66V1h10.58v2.6H3.88v3.04h6.5v2.52h-6.5v3.24h7.62zM39.64 1c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.027-.247 1.923-.74 2.69-.493.767-1.197 1.353-2.11 1.76-.913.407-1.99.61-3.23.61h-2.82V15h-3.24V1h6.06zm-.18 7.5c.973 0 1.713-.21 2.22-.63.507-.42.76-1.017.76-1.79 0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64V8.5h2.64zm22.3 3.9V15H50.92V1H61.5v2.6h-7.36v3.04h6.5v2.52h-6.5v3.24h7.62zm14.4 2.6l-2.7-3.9h-2.98V15h-3.24V1h6.06c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.04-.25 1.937-.75 2.69-.5.753-1.21 1.33-2.13 1.73l3.14 4.5h-3.48zm-.06-8.92c0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64v4.88h2.64c.973 0 1.713-.213 2.22-.64.507-.427.76-1.027.76-1.8zm11.44-2.44h-4.48V1h12.2v2.64h-4.48V15h-3.24V3.64zm18.94 11.6c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm13-11.48h3.24v11.36h7.02V15h-10.26V1zM141 15.24c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm22.46-4.7h2.96v5.68c-.76.573-1.64 1.013-2.64 1.32-1 .307-2.007.46-3.02.46-1.453 0-2.76-.31-3.92-.93a6.923 6.923 0 0 1-2.73-2.58c-.66-1.1-.99-2.343-.99-3.73s.33-2.63.99-3.73c.66-1.1 1.577-1.96 2.75-2.58 1.173-.62 2.493-.93 3.96-.93 1.227 0 2.34.207 3.34.62a6.61 6.61 0 0 1 2.52 1.8L164.6 5.1c-1-1.053-2.207-1.58-3.62-1.58-.893 0-1.687.187-2.38.56-.693.373-1.233.9-1.62 1.58s-.58 1.46-.58 2.34c0 .867.193 1.64.58 2.32.387.68.923 1.21 1.61 1.59.687.38 1.47.57 2.35.57.933 0 1.773-.2 2.52-.6v-4.1zm15.58 2.26V15h-3.24v-5l-5.42-9h3.44l3.74 6.22L181.3 1h3.18l-5.44 9.04z" fill="#212121"/><path d="M17.96 15h-3.72L24.56 1h3.5l-10.1 14zm.802-7.916l-4.334-6.06 3.68.002 2.615 3.687-1.96 2.371zm5.59 7.898l-2.692-3.87 1.937-2.352 4.493 6.231-3.738-.009z" fill="#F05638"/></g></symbol><symbol viewBox="0 0 185 16" id="icon-logo-white" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M11.5 12.4V15H.66V1h10.58v2.6H3.88v3.04h6.5v2.52h-6.5v3.24h7.62zM39.64 1c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.027-.247 1.923-.74 2.69-.493.767-1.197 1.353-2.11 1.76-.913.407-1.99.61-3.23.61h-2.82V15h-3.24V1h6.06zm-.18 7.5c.973 0 1.713-.21 2.22-.63.507-.42.76-1.017.76-1.79 0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64V8.5h2.64zm22.3 3.9V15H50.92V1H61.5v2.6h-7.36v3.04h6.5v2.52h-6.5v3.24h7.62zm14.4 2.6l-2.7-3.9h-2.98V15h-3.24V1h6.06c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.04-.25 1.937-.75 2.69-.5.753-1.21 1.33-2.13 1.73l3.14 4.5h-3.48zm-.06-8.92c0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64v4.88h2.64c.973 0 1.713-.213 2.22-.64.507-.427.76-1.027.76-1.8zm11.44-2.44h-4.48V1h12.2v2.64h-4.48V15h-3.24V3.64zm18.94 11.6c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm13-11.48h3.24v11.36h7.02V15h-10.26V1zM141 15.24c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm22.46-4.7h2.96v5.68c-.76.573-1.64 1.013-2.64 1.32-1 .307-2.007.46-3.02.46-1.453 0-2.76-.31-3.92-.93a6.923 6.923 0 0 1-2.73-2.58c-.66-1.1-.99-2.343-.99-3.73s.33-2.63.99-3.73c.66-1.1 1.577-1.96 2.75-2.58 1.173-.62 2.493-.93 3.96-.93 1.227 0 2.34.207 3.34.62a6.61 6.61 0 0 1 2.52 1.8L164.6 5.1c-1-1.053-2.207-1.58-3.62-1.58-.893 0-1.687.187-2.38.56-.693.373-1.233.9-1.62 1.58s-.58 1.46-.58 2.34c0 .867.193 1.64.58 2.32.387.68.923 1.21 1.61 1.59.687.38 1.47.57 2.35.57.933 0 1.773-.2 2.52-.6v-4.1zm15.58 2.26V15h-3.24v-5l-5.42-9h3.44l3.74 6.22L181.3 1h3.18l-5.44 9.04z" fill="#FFF"/><path d="M17.96 15h-3.72L24.56 1h3.5l-10.1 14zm.802-7.916l-4.334-6.06 3.68.002 2.615 3.687-1.96 2.371zm5.59 7.898l-2.692-3.87 1.937-2.352 4.493 6.231-3.738-.009z" fill="#F05638"/></g></symbol><symbol viewBox="0 0 18 18" id="icon-search" xmlns="http://www.w3.org/2000/svg"><path d="M464.268 20.705a5.347 5.347 0 0 0-7.563 0 5.347 5.347 0 0 0 0 7.563 5.347 5.347 0 0 0 7.563 0 5.347 5.347 0 0 0 0-7.563m5.562 13.125a1.072 1.072 0 0 1-1.513 0l-3.368-3.37c-2.933 2.193-7.092 1.986-9.756-.68a7.486 7.486 0 0 1 0-10.587 7.486 7.486 0 0 1 10.588 0c2.665 2.664 2.872 6.823.68 9.756l3.369 3.369a1.07 1.07 0 0 1 0 1.512" id="ha"/><use xlink:href="#ha" transform="translate(-453 -17)" fill-rule="evenodd"/></symbol></svg>
-
-  <!-- BEGIN HEADER-->
-    <header class="header header--black" role="banner">
-      <div class="row justify-content-sm-between justify-content-lg-center align-items-center">
-        <!-- логотип-->
-        <div class="col-sm-9 col-lg-4 order-lg-1"><a class="header__logo" href="main.html">
-          <svg class="icon icon-logo-white ">
-            <use xlink:href="#icon-logo-white"></use>
-          </svg></a>
+  <body class="page"><svg width="0" height="0" style="position:absolute;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 23 18" id="icon-arrow" xmlns="http://www.w3.org/2000/svg"><path d="M22.911 10.404c-.05.13-.123.253-.228.358l-7.952 7.95a1.02 1.02 0 0 1-1.446 0 1.02 1.02 0 0 1 0-1.444L19.553 11H1a1 1 0 0 1 0-2h18.555l-6.27-6.271a1.023 1.023 0 0 1 1.446-1.446l7.952 7.953c.106.105.179.229.229.36.055.124.088.26.088.404 0 .144-.034.28-.089.404z"/></symbol><symbol viewBox="0 0 12 14" id="icon-best" xmlns="http://www.w3.org/2000/svg"><path d="M8.988 8.663S8.36 7.631 7.516 7.509c-.844-.122-4.502.709-4.502.709s-.893-.219-1.06-.874l-.028-.11v5.791A.97.97 0 0 1 .963 14 .97.97 0 0 1 0 13.025V.974C0 .436.431 0 .963 0s.963.436.963.974v.227c.599.341 1.514.628 2.869.526 2.954-.223 4.598-.764 5.872-.078C11.942 2.337 12 3.011 12 3.011L8.988 8.663z" fill="#FFF" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 16 12" id="icon-check" xmlns="http://www.w3.org/2000/svg"><path d="M6.747 11.682c-.21.21-.487.303-.761.292a1.01 1.01 0 0 1-.762-.292L.285 6.73a1.024 1.024 0 0 1 0-1.445c.399-.4 1.045-.4 1.444 0L5.95 9.517 14.242.285a1.022 1.022 0 0 1 1.444 1.445l-8.939 9.952z" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 13 13" id="icon-close" xmlns="http://www.w3.org/2000/svg"><path d="M8.84 6.177l2.606 2.606a1.883 1.883 0 0 1-2.662 2.663L6.176 8.84l-2.828 2.828a1.959 1.959 0 0 1-2.773 0 1.959 1.959 0 0 1 0-2.773l2.828-2.828L.797 3.458A1.88 1.88 0 1 1 3.458.798l2.608 2.606L8.894.574a1.962 1.962 0 0 1 2.773 2.775L8.84 6.177z" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 16 14" id="icon-comments" xmlns="http://www.w3.org/2000/svg"><path d="M2 0h12c.813 0 1.5.687 1.5 1.5v8.25c0 .813-.687 1.5-1.5 1.5H6.86l-2.425 2.668a.252.252 0 0 1-.275.065.249.249 0 0 1-.16-.233v-2.5H2a1.52 1.52 0 0 1-1.5-1.5V1.5C.5.687 1.187 0 2 0z" fill="#0EBAC5" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 18 16" id="icon-dislike" xmlns="http://www.w3.org/2000/svg"><g fill="#9FA3A7" fill-rule="evenodd"><path d="M2.86 2.779l9.445 9.445c-1.223 1.06-2.158 2.232-2.297 2.774-.203-.698-1.501-2.339-3.325-3.539-1.881-1.237-4.705-2.394-4.684-5.488.01-1.316.337-2.386.86-3.192zm2.516-1.726c1.702-.302 3.612.643 4.62 3.005 1.976-4.661 7.966-3.769 8.005 1.879.016 2.338-1.613 3.527-3.206 4.534L5.376 1.053z"/><path d="M1.5 1.5L14 14" stroke="#9FA3A7" stroke-width="2" stroke-linecap="square"/></g></symbol><symbol viewBox="0 0 17 12" id="icon-envelope" xmlns="http://www.w3.org/2000/svg"><path d="M16 12H1a1 1 0 0 1-1-1V1a1 1 0 0 1 1-1h15a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zM8.502 6.002L12.504 2H4.5l4.002 4.002zm1.07 1.905l5.335-5.335C15.021 2.457 15 10 15 10H2s.072-7.6.174-7.498l5.074 5.074c.179.18 2.127.528 2.324.331z" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 18 13" id="icon-eye" xmlns="http://www.w3.org/2000/svg"><path d="M9 0C4.909 0 1.391 2.686 0 6.5 1.391 10.313 4.909 13 9 13s7.609-2.687 9-6.5C16.609 2.686 13.091 0 9 0zm0 10.833c-2.291 0-4.091-1.907-4.091-4.333 0-2.427 1.8-4.334 4.091-4.334 2.291 0 4.091 1.907 4.091 4.334 0 2.426-1.8 4.333-4.091 4.333zM9 3.9c-1.391 0-2.455 1.126-2.455 2.6 0 1.473 1.064 2.6 2.455 2.6s2.454-1.127 2.454-2.6c0-1.474-1.063-2.6-2.454-2.6z" fill="#FFC80A" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 16 14" id="icon-like" xmlns="http://www.w3.org/2000/svg"><path d="M7.996 3.058C5.925-1.797.038-.664-.001 4.971c-.021 3.094 2.803 4.251 4.684 5.488 1.824 1.2 3.122 2.841 3.325 3.539.175-.684 1.62-2.372 3.309-3.573 1.846-1.313 4.705-2.394 4.684-5.488-.039-5.648-6.029-6.54-8.005-1.879z" fill="#F05638" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 185 16" id="icon-logo-black" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M11.5 12.4V15H.66V1h10.58v2.6H3.88v3.04h6.5v2.52h-6.5v3.24h7.62zM39.64 1c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.027-.247 1.923-.74 2.69-.493.767-1.197 1.353-2.11 1.76-.913.407-1.99.61-3.23.61h-2.82V15h-3.24V1h6.06zm-.18 7.5c.973 0 1.713-.21 2.22-.63.507-.42.76-1.017.76-1.79 0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64V8.5h2.64zm22.3 3.9V15H50.92V1H61.5v2.6h-7.36v3.04h6.5v2.52h-6.5v3.24h7.62zm14.4 2.6l-2.7-3.9h-2.98V15h-3.24V1h6.06c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.04-.25 1.937-.75 2.69-.5.753-1.21 1.33-2.13 1.73l3.14 4.5h-3.48zm-.06-8.92c0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64v4.88h2.64c.973 0 1.713-.213 2.22-.64.507-.427.76-1.027.76-1.8zm11.44-2.44h-4.48V1h12.2v2.64h-4.48V15h-3.24V3.64zm18.94 11.6c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm13-11.48h3.24v11.36h7.02V15h-10.26V1zM141 15.24c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm22.46-4.7h2.96v5.68c-.76.573-1.64 1.013-2.64 1.32-1 .307-2.007.46-3.02.46-1.453 0-2.76-.31-3.92-.93a6.923 6.923 0 0 1-2.73-2.58c-.66-1.1-.99-2.343-.99-3.73s.33-2.63.99-3.73c.66-1.1 1.577-1.96 2.75-2.58 1.173-.62 2.493-.93 3.96-.93 1.227 0 2.34.207 3.34.62a6.61 6.61 0 0 1 2.52 1.8L164.6 5.1c-1-1.053-2.207-1.58-3.62-1.58-.893 0-1.687.187-2.38.56-.693.373-1.233.9-1.62 1.58s-.58 1.46-.58 2.34c0 .867.193 1.64.58 2.32.387.68.923 1.21 1.61 1.59.687.38 1.47.57 2.35.57.933 0 1.773-.2 2.52-.6v-4.1zm15.58 2.26V15h-3.24v-5l-5.42-9h3.44l3.74 6.22L181.3 1h3.18l-5.44 9.04z" fill="#212121"/><path d="M17.96 15h-3.72L24.56 1h3.5l-10.1 14zm.802-7.916l-4.334-6.06 3.68.002 2.615 3.687-1.96 2.371zm5.59 7.898l-2.692-3.87 1.937-2.352 4.493 6.231-3.738-.009z" fill="#F05638"/></g></symbol><symbol viewBox="0 0 185 16" id="icon-logo-white" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M11.5 12.4V15H.66V1h10.58v2.6H3.88v3.04h6.5v2.52h-6.5v3.24h7.62zM39.64 1c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.027-.247 1.923-.74 2.69-.493.767-1.197 1.353-2.11 1.76-.913.407-1.99.61-3.23.61h-2.82V15h-3.24V1h6.06zm-.18 7.5c.973 0 1.713-.21 2.22-.63.507-.42.76-1.017.76-1.79 0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64V8.5h2.64zm22.3 3.9V15H50.92V1H61.5v2.6h-7.36v3.04h6.5v2.52h-6.5v3.24h7.62zm14.4 2.6l-2.7-3.9h-2.98V15h-3.24V1h6.06c1.24 0 2.317.207 3.23.62.913.413 1.617 1 2.11 1.76.493.76.74 1.66.74 2.7 0 1.04-.25 1.937-.75 2.69-.5.753-1.21 1.33-2.13 1.73l3.14 4.5h-3.48zm-.06-8.92c0-.787-.253-1.39-.76-1.81-.507-.42-1.247-.63-2.22-.63h-2.64v4.88h2.64c.973 0 1.713-.213 2.22-.64.507-.427.76-1.027.76-1.8zm11.44-2.44h-4.48V1h12.2v2.64h-4.48V15h-3.24V3.64zm18.94 11.6c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm13-11.48h3.24v11.36h7.02V15h-10.26V1zM141 15.24c-1.453 0-2.763-.313-3.93-.94-1.167-.627-2.08-1.49-2.74-2.59-.66-1.1-.99-2.337-.99-3.71 0-1.373.33-2.61.99-3.71.66-1.1 1.573-1.963 2.74-2.59 1.167-.627 2.477-.94 3.93-.94 1.453 0 2.76.313 3.92.94a7.067 7.067 0 0 1 2.74 2.59c.667 1.1 1 2.337 1 3.71 0 1.373-.333 2.61-1 3.71a7.067 7.067 0 0 1-2.74 2.59c-1.16.627-2.467.94-3.92.94zm0-2.76c.827 0 1.573-.19 2.24-.57a4.09 4.09 0 0 0 1.57-1.59c.38-.68.57-1.453.57-2.32 0-.867-.19-1.64-.57-2.32a4.09 4.09 0 0 0-1.57-1.59c-.667-.38-1.413-.57-2.24-.57-.827 0-1.573.19-2.24.57a4.09 4.09 0 0 0-1.57 1.59c-.38.68-.57 1.453-.57 2.32 0 .867.19 1.64.57 2.32.38.68.903 1.21 1.57 1.59.667.38 1.413.57 2.24.57zm22.46-4.7h2.96v5.68c-.76.573-1.64 1.013-2.64 1.32-1 .307-2.007.46-3.02.46-1.453 0-2.76-.31-3.92-.93a6.923 6.923 0 0 1-2.73-2.58c-.66-1.1-.99-2.343-.99-3.73s.33-2.63.99-3.73c.66-1.1 1.577-1.96 2.75-2.58 1.173-.62 2.493-.93 3.96-.93 1.227 0 2.34.207 3.34.62a6.61 6.61 0 0 1 2.52 1.8L164.6 5.1c-1-1.053-2.207-1.58-3.62-1.58-.893 0-1.687.187-2.38.56-.693.373-1.233.9-1.62 1.58s-.58 1.46-.58 2.34c0 .867.193 1.64.58 2.32.387.68.923 1.21 1.61 1.59.687.38 1.47.57 2.35.57.933 0 1.773-.2 2.52-.6v-4.1zm15.58 2.26V15h-3.24v-5l-5.42-9h3.44l3.74 6.22L181.3 1h3.18l-5.44 9.04z" fill="#FFF"/><path d="M17.96 15h-3.72L24.56 1h3.5l-10.1 14zm.802-7.916l-4.334-6.06 3.68.002 2.615 3.687-1.96 2.371zm5.59 7.898l-2.692-3.87 1.937-2.352 4.493 6.231-3.738-.009z" fill="#F05638"/></g></symbol><symbol viewBox="0 0 12 2" id="icon-minus" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h12v2H0z"/></symbol><symbol viewBox="0 0 24 24" id="icon-option" xmlns="http://www.w3.org/2000/svg"><path d="M22.096 14.635l-1.066.48a.404.404 0 0 0-.214.507l.412 1.07c.37.987.236 2.051-.367 2.923-.64.877-1.63 1.393-2.66 1.393a3.33 3.33 0 0 1-1.151-.222l-1.103-.426a.404.404 0 0 0-.499.213l-.49 1.051c-.531 1.149-1.658 1.863-2.94 1.863-1.283 0-2.41-.714-2.941-1.864l-.49-1.049a.4.4 0 0 0-.365-.237.28.28 0 0 0-.117.017l-1.121.417a3.252 3.252 0 0 1-1.15.208 3.228 3.228 0 0 1-2.66-1.378c-.608-.838-.745-1.9-.37-2.905l.418-1.083a.403.403 0 0 0-.22-.5l-1.064-.479C.743 14.1 0 12.997 0 11.758c0-1.261.726-2.37 1.895-2.892l1.066-.48a.405.405 0 0 0 .212-.508l-.41-1.07c-.372-.972-.238-2.032.367-2.907a3.301 3.301 0 0 1 2.66-1.378c.394 0 .78.07 1.15.208l1.097.408a.404.404 0 0 0 .506-.211l.49-1.052C9.56.736 10.732 0 12.017 0c1.282 0 2.409.714 2.94 1.863l.49 1.05a.4.4 0 0 0 .365.236.28.28 0 0 0 .117-.016l1.12-.417a3.28 3.28 0 0 1 1.15-.209c1.068 0 2.063.515 2.66 1.378.609.839.746 1.901.37 2.905l-.417 1.084a.402.402 0 0 0 .22.498l1.064.48c1.167.522 1.894 1.63 1.894 2.891 0 1.261-.727 2.37-1.895 2.892zm-.437-4.84l-1.069-.483a1.429 1.429 0 0 1-.765-1.795l.418-1.089c.252-.673.164-1.386-.247-1.951-.558-.806-1.638-1.141-2.573-.794l-1.097.41c-.14.059-.31.091-.513.091a1.445 1.445 0 0 1-1.327-.85L14 2.293a2.16 2.16 0 0 0-1.983-1.258c-.874 0-1.67.5-2.028 1.271l-.49 1.05a1.461 1.461 0 0 1-1.859.742l-1.074-.4c-.91-.34-1.987-.013-2.574.795a2.088 2.088 0 0 0-.245 1.95l.414 1.079a1.433 1.433 0 0 1-.76 1.804l-1.07.482c-.79.353-1.28 1.1-1.28 1.95 0 .828.507 1.57 1.323 1.935l1.07.481a1.431 1.431 0 0 1 .765 1.795l-.419 1.089c-.252.674-.162 1.387.248 1.951a2.175 2.175 0 0 0 1.796.935c.266 0 .527-.047.774-.14l1.1-.41c.14-.06.31-.092.513-.092.578 0 1.099.334 1.327.85l.485 1.042a2.16 2.16 0 0 0 1.984 1.257A2.16 2.16 0 0 0 14 21.195l.49-1.052a1.46 1.46 0 0 1 1.859-.74l1.08.416c.272.102.533.154.771.154.692 0 1.364-.355 1.797-.95a2.12 2.12 0 0 0 .244-1.969l-.413-1.075a1.43 1.43 0 0 1 .76-1.803l1.07-.483c.79-.353 1.28-1.1 1.28-1.95 0-.85-.49-1.597-1.279-1.949zm-9.664 6.858c-2.753 0-4.993-2.202-4.993-4.91 0-2.707 2.24-4.91 4.993-4.91 2.754 0 4.994 2.203 4.994 4.91 0 2.708-2.24 4.91-4.994 4.91zm0-8.785c-2.173 0-3.94 1.739-3.94 3.875s1.767 3.875 3.94 3.875 3.941-1.739 3.941-3.875-1.768-3.875-3.94-3.875z" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 12 12" id="icon-plus" xmlns="http://www.w3.org/2000/svg"><path d="M0 5h5V0h2v5h5v2H7v5H5V7H0z"/></symbol><symbol viewBox="0 0 18 18" id="icon-search" xmlns="http://www.w3.org/2000/svg"><path d="M464.268 20.705a5.347 5.347 0 0 0-7.563 0 5.347 5.347 0 0 0 0 7.563 5.347 5.347 0 0 0 7.563 0 5.347 5.347 0 0 0 0-7.563m5.562 13.125a1.072 1.072 0 0 1-1.513 0l-3.368-3.37c-2.933 2.193-7.092 1.986-9.756-.68a7.486 7.486 0 0 1 0-10.587 7.486 7.486 0 0 1 10.588 0c2.665 2.664 2.872 6.823.68 9.756l3.369 3.369a1.07 1.07 0 0 1 0 1.512" id="oa"/><use xlink:href="#oa" transform="translate(-453 -17)" fill-rule="evenodd"/></symbol><symbol viewBox="0 0 14 13" id="icon-star" xmlns="http://www.w3.org/2000/svg"><path d="M10.499 8.296L11.325 13l-4.326-2.22L2.672 13l.826-4.704-3.5-3.33 4.838-.687L6.999 0l2.163 4.279L14 4.966z" fill-rule="evenodd"/></symbol></svg>
+    <div class="wrapper">
+      <!-- BEGIN HEADER DIFF-->
+      <div class="header-diff" data-js="header-diff" data-target="#diff-container">
+        <div class="header-diff__item">
+          <figure><img src="./images/header_diff/camera-1.png" alt="Sony A5100">
+            <figcaption>Sony A5100</figcaption>
+          </figure>
         </div>
-        <!-- меню-->
-        <div class="col-lg-12 order-sm-2 order-lg-2">
-          <nav class="navigation-menu navigation-menu--black" id="navigation-menu">
-            <ul class="topmenu">
-              <li><a href="#">Рейтинги</a></li>
-              <li><a href="#">Советы</a></li>
-              <li><a class="down" href="#">Битва товаров</a>
-                <ul class="submenu">
-                  <li class="navigation-menu--black-link"><a href="#">Рейтинги</a></li>
-                  <li class="navigation-menu--black-link"><a href="#">Категории</a></li>
-                </ul>
-              </li>
-              <li><a href="#">О журнале</a></li>
-              <li><a href="#">Контакты</a></li>
-            </ul>
-          </nav>
-        </div>
-        <!-- поиск меню-->
-        <div class="col-sm-7 col-lg-1 order-lg-3">
-          <div class="header__controls">
-            <button class="button-hamburger" type="button" data-toggle="navigation-menu" aria-label="Меню">
-              <div class="button-hamburger__wrap">
-                <div class="button-hamburger__inner"></div>
-              </div>
-            </button>
-            <button class="button-search" type="button" data-header="search">
-              <img src="img/navigation/Search-white.svg" alt="">
-            </button>
-          </div>
+        <div class="header-diff__item">
+          <figure><img src="./images/header_diff/camera-2.png" alt="Sony A6000">
+            <figcaption>Sony A6000</figcaption>
+          </figure>
         </div>
       </div>
-      <!-- выдвижной поиск меню-->
-      <div class="row justify-content-center">
-        <div class="col-18">
-          <div class="search-header__hidden">
-            <form action="#" method="post">
-              <input type="text" value="" placeholder="найти">
-            </form>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- END HEADER-->
-    <!-- BEGIN BREADCRUMBS -->
-    <div class="breadcrumbs">
-      <div class="container">
-        <div class="row">
-          <ol class="breadcrumbs__cont" itemscope itemtype="http://schema.org/BreadcrumbList">
-            <li class="breadcrumbs__list" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <a class="breadcrumbs__link" itemprop="item" href="#">
-                <span itemprop="name">Главная</span>
-              </a>
-              <span class="breadcrumbs__line">/</span>
-              <meta itemprop="position" content="1" />
-            </li>
-            <li class="breadcrumbs__list" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <a class="breadcrumbs__link" itemprop="item" href="#">
-                <span itemprop="name">Контакты</span>
-              </a>
-              <span class="breadcrumbs__line">/</span>
-              <meta itemprop="position" content="2" />
-            </li>
-            <li class="breadcrumbs__list" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-              <a class="breadcrumbs__link" itemprop="item" href="#">
-                <span itemprop="name">...</span>
-              </a>
-              <meta itemprop="position" content="3" />
-            </li>
-          </ol>
-        </div>
-      </div>
-    </div>
-    <!-- END BREADCRUMBS-->
-
-    <!-- ...................
-
-    MAIN
-
-    .................... -->
-
-    <main class="main-cont main-cont--padding">
-      <div class="container">
-        <div class="col-sm-18">
-          <div class="row justify-content-center">
-            <!-- Title -->
-            <h1 class="title-page">Контакты</h1>
-            <!-- Title end-->
-          </div>
-        </div>
-      </div>
-    </main>
-    <!-- MAP -->
-      <div class="map-contacts-container">
-        <div id="map-contacts"></div>
-      </div>
-    <!-- BEGIN FOOTER-->
-    <footer class="footer footer--no-margin" role="contentinfo">
-      <div class="container">
-        <div class="row">
-          <div class="col"><a class="footer__logo" href="main.html">
+      <!-- END HEADER DIFF-->
+      <!-- BEGIN HEADER-->
+      <header class="header header_black" role="banner">
+        <div class="row justify-content-sm-between justify-content-lg-center align-items-center">
+          <!-- логотип-->
+          <div class="col-sm-9 col-lg-4"><a class="header__logo" href="main.html">
               <svg class="icon icon-logo-white ">
                 <use xlink:href="#icon-logo-white"></use>
-              </svg></a></div>
-        </div>
-        <div class="row">
-          <div class="col-md-5">
-            <div class="footer__title">О компании</div>
-            <ul class="footer__list">
-              <li class="footer__list__item"><a href="#" target="_blank">О журнале</a></li>
-              <li class="footer__list__item"><a href="#" target="_blank">Реклама на сайте</a></li>
-              <li class="footer__list__item"><a href="#" target="_blank">Контакты</a></li>
-              <li class="footer__list__item"><a href="#" target="_blank">Карта сайта</a></li>
-            </ul>
+              </svg></a>
+            <!-- меню-->
           </div>
-          <div class="col-md-6">
-            <div class="footer__title">Обработка данных</div>
-            <ul class="footer__list">
-              <li class="footer__list__item"><a href="#" target="_blank">Политика конфиденциальности</a></li>
-              <li class="footer__list__item"><a href="#" target="_blank">Пользовательское соглашение</a></li>
-              <li class="footer__list__item"><a href="#" target="_blank">Обработка данных</a></li>
-            </ul>
+          <div class="col-sm-1 col-lg-12">
+            <nav class="navigation-menu" id="navigation-menu">
+              <ul class="topmenu">
+                <li><a href="#">Рейтинги</a></li>
+                <li><a href="#">Советы</a></li>
+                <li><a class="down" href="#">Битва товаров</a>
+                  <ul class="submenu">
+                    <li><a href="#">Рейтинги</a></li>
+                    <li><a href="#">Категории</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">О журнале</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </nav>
           </div>
-          <div class="col-md-6">
-            <div class="footer__title">Получать новости</div>
-            <form class="footer__form" id="footer-form">
-              <input class="footer__form__text" type="email" name="email" placeholder="E-mail">
-              <button class="button-mail" type="submit">
-                <svg class="icon icon-envelope ">
-                  <use xlink:href="#icon-envelope"></use>
+          <!-- поиск меню-->
+          <div class="col-sm-5 col-lg-1">
+            <div class="header__controls">
+              <button class="button-hamburger" type="button" data-toggle="navigation-menu" aria-label="Меню">
+                <div class="button-hamburger__wrap">
+                  <div class="button-hamburger__inner"></div>
+                </div>
+              </button>
+              <button class="button-search" type="button" data-header="search">
+                <svg class="icon icon-search ">
+                  <use xlink:href="#icon-search"></use>
                 </svg>
               </button>
-            </form>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <p class="footer__copyright">© Журнал Expertology составляет рейтинги и обзоры лучших товаров. Материалы сайта носят субъективный характер и не являются руководством к покупке. Необходима консультация специалиста. В случае нарушения авторских прав необходимо связаться с администрацией сайта любым удобным способом, которые указаны в разделе контакты. 18+. 2017—2018</p>
+        <!-- выдвижной поиск меню-->
+        <div class="row justify-content-center">
+          <div class="col-18">
+            <div class="search-header__hidden">
+              <form action="#" method="post">
+                <input type="text" value="" placeholder="найти">
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- END HEADER-->
+      <div class="breadcrumbs">
+        <div class="container">
+          <div class="row">
+            <ol class="breadcrumbs__cont" itemscope="itemscope" itemtype="http://schema.org/BreadcrumbList">
+              <li class="breadcrumbs__list" itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem"><a class="breadcrumbs__link" itemprop="item" href="#"><span itemprop="name">Главная</span></a><span class="breadcrumbs__line">/</span>
+                <meta itemprop="position" content="1"/>
+              </li>
+              <li class="breadcrumbs__list" itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem"><a class="breadcrumbs__link" itemprop="item" href="#"><span itemprop="name">Контакты</span></a><span class="breadcrumbs__line">/</span>
+                <meta itemprop="position" content="2"/>
+              </li>
+              <li class="breadcrumbs__list" itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem"><a class="breadcrumbs__link" itemprop="item" href="#"><span itemprop="name">Битва товаров</span></a>
+                <meta itemprop="position" content="3"/>
+              </li>
+            </ol>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- END FOOTER-->
+      <section>
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h1>Samsung Galaxy Tab S4 10.5 "LTE</h1>
+          </div>
+        </div>
+        <!-- BEGIN CART COMPARISON-->
+        <div class="row justify-content-center">
+          <div class="col col-lg-16">
+            <div class="cart-comparison" id="diff-container">
+              <div class="cart-comparison__top-buttons">
+                <button class="button button_purple button_with-icon" type="button">
+                  <svg class="icon icon-best ">
+                    <use xlink:href="#icon-best"></use>
+                  </svg>Лучший
+                </button>
+              </div>
+              <div class="cart-comparison__compare-buttons">
+                <button class="button button_circle button_yellow" type="button" data-tooltip="Добавить в сравнение">
+                  <svg class="icon icon-plus ">
+                    <use xlink:href="#icon-plus"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="cart-comparison__col-1">
+                <div class="cart-comparison__info">
+                  <div class="cart-comparison__tag">1 место в рейтинге - <span>лучшие смартфоны</span></div>
+                  <div class="cart-comparison__title">Samsung Galaxy Tab S4 10.5 "LTE</div>
+                  <div class="cart-comparison__voice">
+                    <div class="cart-comparison__star">
+                      <svg class="icon icon-star ">
+                        <use xlink:href="#icon-star"></use>
+                      </svg><span>15 000 баллов</span>
+                    </div>
+                    <div class="cart-comparison__rating"></div>
+                    <div class="cart-comparison__text">
+                      <p>2463 положительных отзыва в товарных агрегаторах</p>
+                    </div>
+                    <div class="cart-comparison__voiting"><span>Проголосуйте:</span>
+                      <div class="cart-comparison__voiting-button">
+                        <button class="button button_circle" type="button">
+                          <svg class="icon icon-dislike ">
+                            <use xlink:href="#icon-dislike"></use>
+                          </svg>
+                        </button>
+                        <button class="button button_circle" type="button">
+                          <svg class="icon icon-like ">
+                            <use xlink:href="#icon-like"></use>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cart-comparison__col-2">
+                <div class="cart-comparison__image bg-color_grey-20"><img src="./images/carts/tablet.png" alt="Samsung Galaxy Tab S4 10.5 &quot;LTE"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END CART COMPARISON-->
+      </section>
+      <section>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h2>Лучшие технические характеристики и функции</h2>
+          </div>
+        </div>
+        <!-- BEGIN FEATURE COMPARISON-->
+        <div class="feature-comparison" data-js="feature-comparison">
+          <div class="feature-comparison__wrapper">
+            <div class="row justify-content-center">
+              <col-lg-4 class="col-md-5 col-xs-18">
+                <nav class="feature-comparison__nav">
+                  <ul>
+                    <li class="is-active"><a href="#feature-1" title="характеристика 1"><span>характеристика 1</span></a></li>
+                    <li><a href="#feature-2" title="характеристика 2"><span>характеристика 2</span></a></li>
+                    <li><a href="#feature-3" title="характеристика 3"><span>характеристика 3</span></a></li>
+                    <li><a href="#feature-4" title="характеристика 4"><span>характеристика 4</span></a></li>
+                    <li><a href="#feature-5" title="характеристика 5"><span>характеристика 5</span></a></li>
+                    <li><a href="#feature-6" title="характеристика 6"><span>характеристика 6</span></a></li>
+                    <li><a href="#feature-7" title="характеристика 7"><span>характеристика 7</span></a></li>
+                  </ul>
+                </nav>
+              </col-lg-4>
+              <div class="col-lg-12 col-md-11 col-xs-18">
+                <div class="feature-comparison__data">
+                  <div class="feature-comparison__graphic"><img src="./images/carts/feature.png" alt="характеристика"></div>
+                  <div class="feature-comparison__info">
+                    <ul>
+                      <li class="feature-comparison__info-item feature-comparison__info-item_yellow">У 80% пользователей те же характеристики</li>
+                      <li class="feature-comparison__info-item feature-comparison__info-item_red">У 20% этого нет</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END FEATURE COMPARISON-->
+      </section>
+      <section>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h2>Плюсы и минусы</h2>
+          </div>
+        </div>
+        <!-- BEGIN PLUS MINUS-->
+        <div class="plus-minus">
+          <div class="plus-minus__wrapper">
+            <div class="row justify-content-between">
+              <div class="col-lg-8">
+                <div class="plus-minus__block">
+                  <div class="plus-minus__title">Достоинства</div>
+                  <div class="plus-minus__list">
+                    <ul>
+                      <li><span class="circle-icon circle-icon_blue">
+                          <svg class="icon icon-check ">
+                            <use xlink:href="#icon-check"></use>
+                          </svg></span><span>Простая конструкция;</span></li>
+                      <li><span class="circle-icon circle-icon_blue">
+                          <svg class="icon icon-check ">
+                            <use xlink:href="#icon-check"></use>
+                          </svg></span><span>Допускают возможность установки дополнительного оборудования вместо ковша;</span></li>
+                      <li><span class="circle-icon circle-icon_blue">
+                          <svg class="icon icon-check ">
+                            <use xlink:href="#icon-check"></use>
+                          </svg></span><span>В зависимости от грузоподъемности, позволяют работать с весами от 1 до 11‑13 тонн;</span></li>
+                      <li><span class="circle-icon circle-icon_blue">
+                          <svg class="icon icon-check ">
+                            <use xlink:href="#icon-check"></use>
+                          </svg></span><span>Высокая проходимость;</span></li>
+                      <li><span class="circle-icon circle-icon_blue">
+                          <svg class="icon icon-check ">
+                            <use xlink:href="#icon-check"></use>
+                          </svg></span><span>Позволяют работать в любых условиях;</span></li>
+                      <li><span class="circle-icon circle-icon_blue">
+                          <svg class="icon icon-check ">
+                            <use xlink:href="#icon-check"></use>
+                          </svg></span><span>Универсальность;</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="plus-minus__block">
+                  <div class="plus-minus__title">Недостатки</div>
+                  <div class="plus-minus__list">
+                    <ul>
+                      <li><span class="circle-icon circle-icon_red">
+                          <svg class="icon icon-minus ">
+                            <use xlink:href="#icon-minus"></use>
+                          </svg></span><span>Требуют качественного сервиса и техобслуживания;</span></li>
+                      <li><span class="circle-icon circle-icon_red">
+                          <svg class="icon icon-minus ">
+                            <use xlink:href="#icon-minus"></use>
+                          </svg></span><span>Не подходят для перевозки паллет, поддонов и прочих крупногабаритных грузов;</span></li>
+                      <li><span class="circle-icon circle-icon_red">
+                          <svg class="icon icon-minus ">
+                            <use xlink:href="#icon-minus"></use>
+                          </svg></span><span>В случае выхода из строя ремонт осуществляется длительное время;</span></li>
+                      <li><span class="circle-icon circle-icon_red">
+                          <svg class="icon icon-minus ">
+                            <use xlink:href="#icon-minus"></use>
+                          </svg></span><span>Дорогостоящие;</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h2>Samsung Galaxy Tab S4 10,5 " Обзор LTE: 132 факта и основные моменты</h2>
+          </div>
+        </div>
+        <!-- BEGIN SPECIFICATION-->
+        <div class="specification">
+          <div class="specification__wrapper">
+            <div class="specification__list">
+              <ul>
+                        <li class="specification-item">
+                          <div class="specification-item__header">
+                            <div class="specification-item__option">
+                              <svg class="icon icon-option ">
+                                <use xlink:href="#icon-option"></use>
+                              </svg>
+                            </div>
+                            <div class="specification-item__title">Общетактовая частота</div>
+                            <div class="specification-item__vote">
+                              <div class="specification-item__comment">
+                                <svg class="icon icon-comments ">
+                                  <use xlink:href="#icon-comments"></use>
+                                </svg><span>27</span>
+                              </div>
+                              <div class="specification-item__count">
+                                <div class="counter" data-js="count">
+                                  <button class="counter__minus" type="button" data-button="minus">
+                                    <svg class="icon icon-minus ">
+                                      <use xlink:href="#icon-minus"></use>
+                                    </svg>
+                                  </button><span class="counter__number" data-count="area">1</span>
+                                  <button class="counter__plus" type="button" data-button="plus">
+                                    <svg class="icon icon-plus ">
+                                      <use xlink:href="#icon-plus"></use>
+                                    </svg>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="specification-item__body">
+                            <div class="specification-item__info">
+                              <p>На 5,03% быстрее тактовая частота процессора.;</p>
+                            </div>
+                            <div class="specification-item__filling">
+                              <div class="specification-item__filling-text">4 х 2,8 ГГц и 4 х 1,77 ГГц (Qualcomm Snapdragon 845)</div>
+                              <div class="specification-item__filling-graph"><span style="width: 85%"></span></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="specification-item">
+                          <div class="specification-item__header">
+                            <div class="specification-item__option">
+                              <svg class="icon icon-option ">
+                                <use xlink:href="#icon-option"></use>
+                              </svg>
+                            </div>
+                            <div class="specification-item__title">Общетактовая частота</div>
+                            <div class="specification-item__vote">
+                              <div class="specification-item__comment">
+                                <svg class="icon icon-comments ">
+                                  <use xlink:href="#icon-comments"></use>
+                                </svg><span>27</span>
+                              </div>
+                              <div class="specification-item__count">
+                                <div class="counter" data-js="count">
+                                  <button class="counter__minus" type="button" data-button="minus">
+                                    <svg class="icon icon-minus ">
+                                      <use xlink:href="#icon-minus"></use>
+                                    </svg>
+                                  </button><span class="counter__number" data-count="area">1</span>
+                                  <button class="counter__plus" type="button" data-button="plus">
+                                    <svg class="icon icon-plus ">
+                                      <use xlink:href="#icon-plus"></use>
+                                    </svg>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="specification-item__body">
+                            <div class="specification-item__info">
+                              <p>На 5,03% быстрее тактовая частота процессора.;</p>
+                            </div>
+                            <div class="specification-item__filling">
+                              <div class="specification-item__filling-text">4 х 2,8 ГГц и 4 х 1,77 ГГц (Qualcomm Snapdragon 845)</div>
+                              <div class="specification-item__filling-graph"><span style="width: 85%"></span></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="specification-item">
+                          <div class="specification-item__header">
+                            <div class="specification-item__option">
+                              <svg class="icon icon-option ">
+                                <use xlink:href="#icon-option"></use>
+                              </svg>
+                            </div>
+                            <div class="specification-item__title">Общетактовая частота</div>
+                            <div class="specification-item__vote">
+                              <div class="specification-item__comment">
+                                <svg class="icon icon-comments ">
+                                  <use xlink:href="#icon-comments"></use>
+                                </svg><span>27</span>
+                              </div>
+                              <div class="specification-item__count">
+                                <div class="counter" data-js="count">
+                                  <button class="counter__minus" type="button" data-button="minus">
+                                    <svg class="icon icon-minus ">
+                                      <use xlink:href="#icon-minus"></use>
+                                    </svg>
+                                  </button><span class="counter__number" data-count="area">1</span>
+                                  <button class="counter__plus" type="button" data-button="plus">
+                                    <svg class="icon icon-plus ">
+                                      <use xlink:href="#icon-plus"></use>
+                                    </svg>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="specification-item__body">
+                            <div class="specification-item__info">
+                              <p>На 5,03% быстрее тактовая частота процессора.;</p>
+                            </div>
+                            <div class="specification-item__filling">
+                              <div class="specification-item__filling-text">4 х 2,8 ГГц и 4 х 1,77 ГГц (Qualcomm Snapdragon 845)</div>
+                              <div class="specification-item__filling-graph"><span style="width: 85%"></span></div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="specification-item">
+                          <div class="specification-item__header">
+                            <div class="specification-item__option">
+                              <svg class="icon icon-option ">
+                                <use xlink:href="#icon-option"></use>
+                              </svg>
+                            </div>
+                            <div class="specification-item__title">Общетактовая частота</div>
+                            <div class="specification-item__vote">
+                              <div class="specification-item__comment">
+                                <svg class="icon icon-comments ">
+                                  <use xlink:href="#icon-comments"></use>
+                                </svg><span>27</span>
+                              </div>
+                              <div class="specification-item__count">
+                                <div class="counter" data-js="count">
+                                  <button class="counter__minus" type="button" data-button="minus">
+                                    <svg class="icon icon-minus ">
+                                      <use xlink:href="#icon-minus"></use>
+                                    </svg>
+                                  </button><span class="counter__number" data-count="area">1</span>
+                                  <button class="counter__plus" type="button" data-button="plus">
+                                    <svg class="icon icon-plus ">
+                                      <use xlink:href="#icon-plus"></use>
+                                    </svg>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="specification-item__body">
+                            <div class="specification-item__info">
+                              <p>На 5,03% быстрее тактовая частота процессора.;</p>
+                            </div>
+                            <div class="specification-item__filling specification-item__filling_error">
+                              <div class="circle-icon circle-icon_red">
+                                <svg class="icon icon-close ">
+                                  <use xlink:href="#icon-close"></use>
+                                </svg>
+                              </div>
+                              <div class="specification-item__filling-text">4 х 2,9 ГГц и 4 х 1,9 ГГц (Samsung Exynos 9810)</div>
+                              <div class="specification-item__filling-graph specification-item__filling-graph_error"></div>
+                            </div>
+                          </div>
+                        </li>
+              </ul>
+            </div>
+            <div class="specification__more">
+              <button class="button button_yellow" type="button">ЕЩЕ ХАРАКТЕРИСТИКИ</button>
+            </div>
+          </div>
+        </div>
+        <!-- END SPECIFICATION-->
+      </section>
+      <div class="row">
+        <div class="col">
+          <!-- BEGIN OFFER BLOCK-->
+          <section class="offer-block">
+            <div class="offer-block__title">
+              <h2>Было ли сравнение полезным?</h2>
+            </div>
+            <div class="offer-block__content">
+              <div class="rating is-active rating_center" data-js="rating">
+                <div class="rating__wrapper">
+                  <div class="rating__list" data-star="4">
+                    <ul>
+                      <li>
+                        <button type="button">
+                          <svg class="icon icon-star ">
+                            <use xlink:href="#icon-star"></use>
+                          </svg>
+                        </button>
+                      </li>
+                      <li>
+                        <button type="button">
+                          <svg class="icon icon-star ">
+                            <use xlink:href="#icon-star"></use>
+                          </svg>
+                        </button>
+                      </li>
+                      <li>
+                        <button type="button">
+                          <svg class="icon icon-star ">
+                            <use xlink:href="#icon-star"></use>
+                          </svg>
+                        </button>
+                      </li>
+                      <li>
+                        <button type="button">
+                          <svg class="icon icon-star ">
+                            <use xlink:href="#icon-star"></use>
+                          </svg>
+                        </button>
+                      </li>
+                      <li>
+                        <button type="button">
+                          <svg class="icon icon-star ">
+                            <use xlink:href="#icon-star"></use>
+                          </svg>
+                        </button>
+                      </li>
+                    </ul>
+                    <div class="rating__result">4.5 / 5</div>
+                  </div>
+                  <div class="rating__voices">2 голоса</div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END OFFER BLOCK-->
+        </div>
+      </div>
+      <section>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h6>ОТЗЫВЫ О SAMSUNG GALAXY TAB S4 10,5 "</h6>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col">
+            <!-- BEGIN REVIEWS-->
+            <div class="reviews">
+              <div class="reviews__wrapper">
+                <div class="reviews__list">
+                  <ul>
+                    <li class="reviews-item">
+                      <div class="reviews-item__photo"><img src="./images/reviews/rev-1.jpg" alt="Григорий" data-object-fit="cover"></div>
+                      <div class="reviews-item__info">
+                        <div class="reviews-item__header">
+                          <div class="reviews-item__name">Григорий</div>
+                          <div class="reviews-item__data">1 день назад</div>
+                        </div>
+                        <div class="reviews-item__body">
+                          <p>Идейные соображения высшего порядка, а также сложившаяся структура организации в значительной степени обуславливает создание систем массового участия. Товарищи! укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Товарищи! дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации модели развития.</p>
+                        </div>
+                        <div class="reviews-item__footer">
+                          <div class="rating" data-js="rating">
+                            <div class="rating__wrapper">
+                              <div class="rating__list" data-star="4">
+                                <div class="rating__result">5 / 5</div>
+                                <ul>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="reviews-item">
+                      <div class="reviews-item__photo"><img src="./images/reviews/rev-2.jpg" alt="Нина" data-object-fit="cover"></div>
+                      <div class="reviews-item__info">
+                        <div class="reviews-item__header">
+                          <div class="reviews-item__name">Нина</div>
+                          <div class="reviews-item__data">1 день назад</div>
+                        </div>
+                        <div class="reviews-item__body">
+                          <p>Идейные соображения высшего порядка, а также сложившаяся структура организации в значительной степени обуславливает создание систем массового участия. Товарищи! укрепление и развитие структуры обеспечивает широкому кругу (специалистов) участие в формировании новых предложений. Товарищи! дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации модели развития.</p>
+                        </div>
+                        <div class="reviews-item__footer">
+                          <div class="rating" data-js="rating">
+                            <div class="rating__wrapper">
+                              <div class="rating__list" data-star="4">
+                                <div class="rating__result">5 / 5</div>
+                                <ul>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                  <li>
+                                    <svg class="icon icon-star ">
+                                      <use xlink:href="#icon-star"></use>
+                                    </svg>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- END REVIEWS-->
+          </div>
+        </div>
+        <hr>
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h6>ОСТАВЬТЕ ВАШ ОТЗЫВ</h6>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col">
+            <div class="form-reviews">
+              <form class="form form_with-button" action="/" method="post" id="form-review">
+                <div class="form_button">
+                  <button class="button button_circle" type="button">
+                    <svg class="icon icon-plus ">
+                      <use xlink:href="#icon-plus"></use>
+                    </svg>
+                  </button>
+                </div>
+                <div class="form_field">
+                  <div class="form_field_name">
+                    <label for="form-review-name"></label>
+                  </div>
+                  <div class="form_field_input">
+                    <input id="form-review-name" name="name" type="text" placeholder="Ваше имя" value="" required="required" autocomplete="off"/>
+                  </div>
+                </div>
+                <div class="form_field form_field_empty-label">
+                  <div class="form_field_name">
+                    <label for="form-review-message"></label>
+                  </div>
+                  <div class="form_field_input">
+                    <textarea id="form-review-message" name="message" placeholder="Ваш комментарий"></textarea>
+                  </div>
+                </div>
+                <div class="form_submit">
+                  <div class="rating is-active" data-js="rating">
+                    <div class="rating__wrapper">
+                      <div class="rating__list" data-star="0">
+                        <ul>
+                          <li>
+                            <button type="button">
+                              <svg class="icon icon-star ">
+                                <use xlink:href="#icon-star"></use>
+                              </svg>
+                            </button>
+                          </li>
+                          <li>
+                            <button type="button">
+                              <svg class="icon icon-star ">
+                                <use xlink:href="#icon-star"></use>
+                              </svg>
+                            </button>
+                          </li>
+                          <li>
+                            <button type="button">
+                              <svg class="icon icon-star ">
+                                <use xlink:href="#icon-star"></use>
+                              </svg>
+                            </button>
+                          </li>
+                          <li>
+                            <button type="button">
+                              <svg class="icon icon-star ">
+                                <use xlink:href="#icon-star"></use>
+                              </svg>
+                            </button>
+                          </li>
+                          <li>
+                            <button type="button">
+                              <svg class="icon icon-star ">
+                                <use xlink:href="#icon-star"></use>
+                              </svg>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="button button_yellow" type="submit" form="form-review">Отправить</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row justify-content-center">
+          <div class="col text-center">
+            <h2>Топ-10 планшетов</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <div class="diff">
+              <div class="row justify-content-sm-around justify-content-md-between">
+                <div class="diff__item">
+                  <!-- Карточка для топа-->
+                  <div class="cart-popular cart-popular_top">
+                    <div class="cart-popular__tag">2 место</div>
+                    <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                    <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                    <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                        <svg class="icon icon-star svg-fill-color_yellow-10">
+                          <use xlink:href="#icon-star"></use>
+                        </svg>15 000 баллов</span></div>
+                  </div>
+                </div>
+                <div class="diff__item">
+                  <!-- Карточка для топа-->
+                  <div class="cart-popular cart-popular_top">
+                    <div class="cart-popular__tag">2 место</div>
+                    <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                    <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                    <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                        <svg class="icon icon-star svg-fill-color_yellow-10">
+                          <use xlink:href="#icon-star"></use>
+                        </svg>15 000 баллов</span></div>
+                  </div>
+                </div>
+                <div class="diff__item">
+                  <!-- Карточка для топа-->
+                  <div class="cart-popular cart-popular_top">
+                    <div class="cart-popular__tag">2 место</div>
+                    <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                    <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                    <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                        <svg class="icon icon-star svg-fill-color_yellow-10">
+                          <use xlink:href="#icon-star"></use>
+                        </svg>15 000 баллов</span></div>
+                  </div>
+                </div>
+                <div class="diff__item">
+                  <!-- Карточка для топа-->
+                  <div class="cart-popular cart-popular_top">
+                    <div class="cart-popular__tag">2 место</div>
+                    <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                    <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                    <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                        <svg class="icon icon-star svg-fill-color_yellow-10">
+                          <use xlink:href="#icon-star"></use>
+                        </svg>15 000 баллов</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row justify-content-center">
+          <div class="col text-center">
+            <h2>Подобные сравнения</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col">
+            <div class="diff">
+              <div class="row justify-content-sm-around justify-content-md-between">
+                <div class="diff__item">
+                  <!-- Карточка сравнения-->
+                  <div class="cart-popular cart-popular_diff">
+                    <div class="cart-popular__image cart-popular__image_diff">
+                      <div class="cart-popular__image_left bg-color_yellow-10"><img src="./images/carts/camera-1.jpg" alt="" data-object-fit="cover"></div>
+                      <div class="cart-popular__image_right bg-color_grey-30"><img src="./images/carts/camera-2.jpg" alt="" data-object-fit="cover"></div>
+                    </div>
+                    <div class="cart-popular__title">Sony A5100</div>
+                    <div class="cart-popular__separate">против</div>
+                    <div class="cart-popular__title">Sony A6000</div>
+                  </div>
+                </div>
+                <div class="diff__item">
+                  <!-- Карточка сравнения-->
+                  <div class="cart-popular cart-popular_diff">
+                    <div class="cart-popular__image cart-popular__image_diff">
+                      <div class="cart-popular__image_left bg-color_yellow-10"><img src="./images/carts/camera-1.jpg" alt="" data-object-fit="cover"></div>
+                      <div class="cart-popular__image_right bg-color_grey-30"><img src="./images/carts/camera-2.jpg" alt="" data-object-fit="cover"></div>
+                    </div>
+                    <div class="cart-popular__title">Sony A5100</div>
+                    <div class="cart-popular__separate">против</div>
+                    <div class="cart-popular__title">Sony A6000</div>
+                  </div>
+                </div>
+                <div class="diff__item">
+                  <!-- Карточка сравнения-->
+                  <div class="cart-popular cart-popular_diff">
+                    <div class="cart-popular__image cart-popular__image_diff">
+                      <div class="cart-popular__image_left bg-color_yellow-10"><img src="./images/carts/camera-1.jpg" alt="" data-object-fit="cover"></div>
+                      <div class="cart-popular__image_right bg-color_grey-30"><img src="./images/carts/camera-2.jpg" alt="" data-object-fit="cover"></div>
+                    </div>
+                    <div class="cart-popular__title">Sony A5100</div>
+                    <div class="cart-popular__separate">против</div>
+                    <div class="cart-popular__title">Sony A6000</div>
+                  </div>
+                </div>
+                <div class="diff__item">
+                  <!-- Карточка сравнения-->
+                  <div class="cart-popular cart-popular_diff">
+                    <div class="cart-popular__image cart-popular__image_diff">
+                      <div class="cart-popular__image_left bg-color_yellow-10"><img src="./images/carts/camera-1.jpg" alt="" data-object-fit="cover"></div>
+                      <div class="cart-popular__image_right bg-color_grey-30"><img src="./images/carts/camera-2.jpg" alt="" data-object-fit="cover"></div>
+                    </div>
+                    <div class="cart-popular__title">Sony A5100</div>
+                    <div class="cart-popular__separate">против</div>
+                    <div class="cart-popular__title">Sony A6000</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BEGIN FOOTER-->
+      <footer class="footer" role="contentinfo">
+        <div class="container">
+          <div class="row">
+            <div class="col"><a class="footer__logo" href="main.html">
+                <svg class="icon icon-logo-white ">
+                  <use xlink:href="#icon-logo-white"></use>
+                </svg></a></div>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="footer__title">О компании</div>
+              <ul class="footer__list">
+                <li class="footer__list__item"><a href="#" target="_blank">О журнале</a></li>
+                <li class="footer__list__item"><a href="#" target="_blank">Реклама на сайте</a></li>
+                <li class="footer__list__item"><a href="#" target="_blank">Контакты</a></li>
+                <li class="footer__list__item"><a href="#" target="_blank">Карта сайта</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <div class="footer__title">Обработка данных</div>
+              <ul class="footer__list">
+                <li class="footer__list__item"><a href="#" target="_blank">Политика конфиденциальности</a></li>
+                <li class="footer__list__item"><a href="#" target="_blank">Пользовательское соглашение</a></li>
+                <li class="footer__list__item"><a href="#" target="_blank">Обработка данных</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <div class="footer__title">Получать новости</div>
+              <form class="footer__form" id="footer-form">
+                <input class="footer__form__text" type="email" name="email" placeholder="E-mail">
+                <button class="button-mail" type="submit">
+                  <svg class="icon icon-envelope ">
+                    <use xlink:href="#icon-envelope"></use>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="footer__copyright">© Журнал Expertology составляет рейтинги и обзоры лучших товаров. Материалы сайта носят субъективный характер и не являются руководством к покупке. Необходима консультация специалиста. В случае нарушения авторских прав необходимо связаться с администрацией сайта любым удобным способом, которые указаны в разделе контакты. 18+. 2017—2018</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- END FOOTER-->
+    </div>
   </body>
 </html>
