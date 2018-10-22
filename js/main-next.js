@@ -382,7 +382,7 @@ installVendor('js/vendor/vendors.js', function () {
                 var $down = $('.down').closest('li');
 
                 if ($down.toArray().some(function (el) {
-                    return el === $target[0];
+                    return el === e.target;
                 })) {
                     e.preventDefault();
                     if (!$target.hasClass('is-active')) $target.addClass('is-active');else $down.removeClass('is-active');
@@ -449,7 +449,7 @@ installVendor('js/vendor/vendors.js', function () {
                         var $target = $(e.target);
 
                         if ($tabs.toArray().some(function (el) {
-                            return el === $target[0];
+                            return el === e.target;
                         })) {
                             e.preventDefault();
                             if ($target.hasClass('is-active')) return false;
@@ -466,6 +466,84 @@ installVendor('js/vendor/vendors.js', function () {
                 }
             }
         })($('[data-js="tabs"]'));
+
+        // Header-diff
+        (function ($headerDiff) {
+            if ($headerDiff.length) {
+                var handlerScroll = function handlerScroll() {
+                    var distanceShow = $target.outerHeight() + $target.offset().top;
+
+                    if (window.pageYOffset > distanceShow) {
+                        if (!$headerDiff.hasClass('is-open')) $headerDiff.addClass('is-open');
+                    } else {
+                        if ($headerDiff.hasClass('is-open')) $headerDiff.removeClass('is-open');
+                    }
+                };
+
+                var $target = $($headerDiff.data('target'));
+
+                $document.on('scroll', handlerScroll.throttle(50));
+                handlerScroll();
+            }
+        })($('[data-js="header-diff"]'));
+
+        // Feature comparasion только переключение
+        (function ($container) {
+            if ($container.length) {
+                var $nav = $container.find('nav');
+                var $navLi = $nav.find('li');
+
+                $document.on('click', function (e) {
+                    var $target = $(e.target).closest('li');
+
+                    if ($navLi.toArray().some(function (el) {
+                        return el === $target[0];
+                    })) {
+                        e.preventDefault();
+
+                        if ($target.hasClass('is-active')) return false;
+
+                        $navLi.removeClass('is-active');
+                        $target.addClass('is-active');
+                    }
+                });
+            }
+        })($('[data-js="feature-comparison"]'));
+
+        // Обрабока + и -
+        (function ($counters) {
+            if ($counters.length) {
+                $counters.each(function (i, item) {
+                    var $counter = $(item);
+                    var $plus = $counter.find('[data-button="plus"]');
+                    var $minus = $counter.find('[data-button="minus"]');
+                    var $area = $counter.find('[data-count="area"]');
+
+                    $document.on('click', 'button', function (e) {
+                        if ($(e.target).closest('button')[0] === $plus[0]) {
+                            var count = +$area.text();
+
+                            if (count < 15) $area.text(++count);
+                        }
+
+                        if ($(e.target).closest('button')[0] === $minus[0]) {
+                            var _count = +$area.text();
+
+                            if (_count > 0) $area.text(--_count);
+                        }
+                    });
+                });
+            }
+        })($('[data-js="count"]'));
+
+        // Нажатие на звезду оценки
+        $document.on('click', '[data-js="rating"] button', function (event) {
+            event.preventDefault();
+            var $this = $(this);
+            var index = $this.parent().index() + 1;
+
+            $this.closest('[data-star]').attr('data-star', index);
+        });
     });
 });
 

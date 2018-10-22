@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>chekbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Form" transform="translate(-141.000000, -320.000000)" fill="#0EBAC5">
+            <g id="Confirm-chekbox">
+                <g transform="translate(137.000000, 318.000000)">
+                    <g id="chekbox" transform="translate(3.000000, 1.000000)">
+                        <path d="M16.686,2.731 L7.747,12.683 C7.537,12.892 7.26,12.985 6.986,12.974 C6.711,12.985 6.434,12.892 6.224,12.683 L1.285,7.73 C0.886,7.331 0.886,6.684 1.285,6.285 C1.684,5.885 2.33,5.885 2.728,6.285 L6.95,10.517 L15.242,1.285 C15.641,0.885 16.287,0.885 16.686,1.285 C17.085,1.684 17.085,2.331 16.686,2.731 L16.686,2.731 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
