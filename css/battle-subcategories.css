@@ -1,0 +1,26 @@
+.search--subcategories {
+  max-width: 100%;
+  margin: 30px auto;
+}
+.cart-popular--position {
+	margin-bottom: 62px;
+}
+@media (max-width: 767px) {
+	.cart-popular--position {
+	margin-bottom: 20px;
+	}
+}
+.cart-winner {
+	padding: 35px 135px;
+	margin-bottom: 82px;
+	border: 1px solid #EDEDED;
+	border-radius: 6px;
+}
+.cart-winner__image {
+	min-width: 100px;
+}
+@media (max-width: 767px) {
+	.cart-winner__image {
+		margin-bottom: 20px;
+	}
+}

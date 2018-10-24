@@ -153,27 +153,25 @@ select {
   margin-bottom: 4em;
   width: 100%;
 }
-.best-cont a {
+.best-cont__link {
   position: relative;
   display: block;
   padding: .4em .4em .4em 4em;
- 
   margin: .5em 0;
   color: #4A4A4A;
   text-decoration: none;
   border-radius: .3em;
   transition: all .3s ease-out;
-
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.6;
   text-decoration: none;   
 }
-.best-cont a:hover {
+.best-cont__link:hover {
 	color: #9B9B9B;
 }
-.best-cont a:before{
+.best-cont__link:before{
   content: counter(li);
   counter-increment: li;
   position: absolute; 

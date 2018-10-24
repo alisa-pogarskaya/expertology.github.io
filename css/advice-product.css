@@ -1,3 +1,80 @@
 /* ==========================================================================
   advice product
   ========================================================================== */
+
+.title-underline {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F2F2F2;
+}
+.time-style {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+  font-weight: normal;
+	color: #9FA3A7;
+}
+/* BEGIN TABLE-CONTENT */
+.best-cont__item--border {
+	border-top: 1px solid #F2F2F2;
+}
+.best-cont__item--link {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+/* END TABLE-CONTENT */
+/* BEGIN TABLE */
+.table {
+	width: 100%;
+  border-spacing: 0px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+.table__header {
+	padding: 15px 0px;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+	text-align: left;
+  border-top: 3px solid #EDEDED;
+  border-bottom: 3px solid #EDEDED;
+}
+.table__col {
+  padding: 20px 0px;
+  border-bottom: 1px solid #EDEDED;
+}
+.table__decor {
+	color: #8F76BC;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  .table {
+    width: 100%;
+  }
+  thead {
+    display: block;
+  }
+  .table__header {
+    padding: 0px 10px;
+    border-top: 3px solid #EDEDED;
+    border-bottom: 3px solid #EDEDED;
+    font-size: 10px;
+  }
+  tr:nth-of-type(2n) {
+    background-color: rgba(255,200,10,.1);
+  }
+  tbody td, tbody th {
+    display: block; 
+    text-align:center;
+  }
+  tbody td, tbody th:before {
+    content: attr(data-th);
+    display: block;
+    text-align:center;
+    }
+}
+/* END TABLE */
