@@ -148,7 +148,6 @@ select {
 .best-cont {
 	counter-reset: li; /* Устанавливает идентификатор */
   list-style: none; /* Удаляем стандартную нумерацию */
-  font-family: Montserrat, Helvetica, Arial, sans-serif;
   padding: 0;
   margin-bottom: 4em;
   width: 100%;
@@ -158,15 +157,20 @@ select {
   display: block;
   padding: .4em .4em .4em 4em;
   margin: .5em 0;
-  color: #4A4A4A;
-  text-decoration: none;
   border-radius: .3em;
   transition: all .3s ease-out;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
+  color: #4A4A4A;
+  text-decoration: none;
   font-weight: normal;
-  line-height: 1.6;
-  text-decoration: none;   
+  line-height: 1.6;  
+}
+.best-cont__link--font {
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  padding-left: 60px;
 }
 .best-cont__link:hover {
 	color: #9B9B9B;

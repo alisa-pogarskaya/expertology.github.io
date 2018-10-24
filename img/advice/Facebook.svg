@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="35px" viewBox="0 0 90 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Советы.-Страница-товара----Desktop" transform="translate(-750.000000, -5360.000000)">
+            <g id="Social" transform="translate(750.000000, 5360.000000)">
+                <g id="Facebook">
+                    <rect id="Rectangle-11" fill="#3853D8" x="0" y="0" width="90" height="35" rx="4"></rect>
+                    <g transform="translate(12.000000, 8.000000)" fill="#FFFFFF" id="Shape">
+                        <path d="M8.982,0.128 L8.982,3.005 C8.982,3.005 6.957,2.793 6.45,3.606 C6.173,4.05 6.338,5.35 6.313,6.284 L8.999,6.284 C8.771,7.376 8.609,8.116 8.442,9.061 L6.298,9.061 L6.298,17.998 L2.578,17.998 C2.579,15.243 2.578,12.029 2.578,9.096 L0.995,9.096 L0.995,6.284 L2.561,6.284 C2.641,4.228 2.671,2.191 3.646,1.154 C4.742,-0.012 5.788,0.128 8.982,0.128 L8.982,0.128 Z"></path>
+                    </g>
+                    <text id="Type-something" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="54" y="22">Like</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>attention</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Alert-attention" transform="translate(-17.000000, -17.000000)">
+            <g id="attention">
+                <g transform="translate(17.000000, 17.000000)">
+                    <path d="M9.85569716,0.915388142 L17.0823163,12.8652878 C17.3681109,13.3378763 17.2166846,13.9526673 16.7440961,14.2384619 C16.587995,14.3328629 16.4090448,14.3827647 16.2266192,14.3827647 L1.77338084,14.3827647 C1.22109609,14.3827647 0.773380835,13.9350495 0.773380835,13.3827647 C0.773380835,13.2003391 0.823282635,13.0213889 0.91768368,12.8652878 L8.14430284,0.915388142 C8.43009746,0.442799653 9.04488845,0.291373302 9.51747694,0.577167922 C9.65591675,0.660888445 9.77197663,0.776948324 9.85569716,0.915388142 Z" id="Triangle" fill="#FFFFFF"></path>
+                    <text id="!" font-family="Montserrat-Bold, Montserrat" font-size="13" font-weight="bold" letter-spacing="1.95" fill="#B9B9B9">
+                        <tspan x="7" y="13">!</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

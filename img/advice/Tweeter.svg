@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="35px" viewBox="0 0 90 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Tweeter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Советы.-Страница-товара----Desktop" transform="translate(-850.000000, -5360.000000)">
+            <g id="Social" transform="translate(750.000000, 5360.000000)">
+                <g id="Tweeter" transform="translate(100.000000, 0.000000)">
+                    <rect id="Rectangle" fill="#4A90E2" x="0" y="0" width="90" height="35" rx="4"></rect>
+                    <g id="Twitter" transform="translate(12.000000, 10.000000)" fill="#FFFFFF">
+                        <path d="M18.008,2.703 C17.927,3.339 17,3.977 16.438,4.46 C16.992,12.587 7.728,17.656 0.997,13.538 C2.885,13.552 5.011,13.037 6.133,11.976 C4.501,11.713 3.344,10.977 2.895,9.536 C3.373,9.491 4.045,9.638 4.367,9.438 C2.873,8.874 1.692,7.999 1.619,6.022 C2.151,6.078 2.428,6.389 3.091,6.315 C2.125,5.699 1.022,3.357 2.012,1.629 C3.765,3.563 5.953,5.063 9.372,5.339 C8.524,1.751 13.306,-0.472 15.457,2.118 C16.293,1.94 16.998,1.633 17.714,1.336 C17.421,2.151 16.825,2.665 16.242,3.191 C16.876,3.074 17.546,2.991 18.008,2.703 L18.008,2.703 Z" id="Shape"></path>
+                    </g>
+                    <text id="Tweet" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="43" y="22">Tweet</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
