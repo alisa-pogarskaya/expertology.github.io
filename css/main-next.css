@@ -2201,7 +2201,7 @@ section {
 .cart-popular_diff .cart-popular__image {
   width: 268px;
   height: 268px;
-  border-radius: 0;
+  border-radius: 6px 6px 0 0;
 }
 .cart-popular_diff .cart-popular__image img {
   max-width: 95%;
