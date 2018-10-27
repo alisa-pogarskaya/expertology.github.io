@@ -103,24 +103,8 @@ select {
 	}
 }
 /* END MENU */
-.cont-catalog {
-	display: inline-block;
-	margin-right: 2%;
+.cart-popular--position {
 	margin-bottom: 20px;
-	width: 31.45%;
-	min-height: auto;
-	padding: 0;
-}
-@media (max-width: 768px) {
-	.cont-catalog {
-		width: 100%;
-	}
-}
-.cont-catalog:nth-child(3n) {
-	margin-right: 0%;
-}
-.cart-cont {
-  margin-bottom: 20px;
 }
 .cart-popular__text {
 	margin-bottom: 33px;
