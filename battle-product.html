@@ -119,43 +119,44 @@
       <section>
         <div class="row justify-content-center">
           <div class="col-lg-12 text-center">
-            <h1>Sony A5100 против Sony A600</h1>
+            <h1>Samsung Galaxy Tab S4 10.5 "LTE</h1>
           </div>
         </div>
-        <!-- BEGIN CART COMPARISON-->
+        <!-- BEGIN CART PRODUCT-->
         <div class="row justify-content-center">
           <div class="col col-lg-16">
-            <div class="cart-comparison" id="diff-container">
-              <div class="cart-comparison__top-buttons">
+            <div class="cart-product" id="diff-container">
+              <div class="cart-product__top-buttons">
                 <button class="button button_purple button_with-icon" type="button">
                   <svg class="icon icon-best ">
                     <use xlink:href="#icon-best"></use>
                   </svg>Лучший
                 </button>
               </div>
-              <div class="cart-comparison__compare-buttons">
+              <div class="cart-product__compare-buttons">
                 <button class="button button_circle button_yellow" type="button" data-tooltip="Добавить в сравнение">
                   <svg class="icon icon-plus ">
                     <use xlink:href="#icon-plus"></use>
                   </svg>
                 </button>
               </div>
-              <div class="cart-comparison__col-1">
-                <div class="cart-comparison__info">
-                  <div class="cart-comparison__tag">1 место в рейтинге - <span>лучшие смартфоны</span></div>
-                  <div class="cart-comparison__title">Samsung Galaxy Tab S4 10.5 "LTE</div>
-                  <div class="cart-comparison__voice">
-                    <div class="cart-comparison__star">
+              <div class="cart-product__col-1">
+                <div class="cart-product__info">
+                  <div class="cart-product__tag">1 место в рейтинге - <span>лучшие смартфоны</span></div>
+                  <div class="cart-product__title">Samsung Galaxy Tab S4 10.5 "LTE</div>
+                  <!-- BEGIN CART RATING-->
+                  <div class="cart-rating">
+                    <div class="cart-rating__star">
                       <svg class="icon icon-star ">
                         <use xlink:href="#icon-star"></use>
                       </svg><span>15 000 баллов</span>
                     </div>
-                    <div class="cart-comparison__rating"></div>
-                    <div class="cart-comparison__text">
+                    <div class="cart-rating__value"></div>
+                    <div class="cart-rating__text">
                       <p>2463 положительных отзыва в товарных агрегаторах</p>
                     </div>
-                    <div class="cart-comparison__voiting"><span>Проголосуйте:</span>
-                      <div class="cart-comparison__voiting-button">
+                    <div class="cart-rating__voting"><span>Проголосуйте:</span>
+                      <div class="cart-rating__voting-button">
                         <button class="button button_circle" type="button">
                           <svg class="icon icon-dislike ">
                             <use xlink:href="#icon-dislike"></use>
@@ -169,15 +170,16 @@
                       </div>
                     </div>
                   </div>
+                  <!-- END CART RATING-->
                 </div>
               </div>
-              <div class="cart-comparison__col-2">
-                <div class="cart-comparison__image bg-color_grey-20"><img src="./images/carts/tablet.png" alt="Samsung Galaxy Tab S4 10.5 &quot;LTE"></div>
+              <div class="cart-product__col-2">
+                <div class="cart-product__image bg-color_grey-20"><img src="./images/carts/tablet.png" alt="Samsung Galaxy Tab S4 10.5 &quot;LTE"></div>
               </div>
             </div>
           </div>
         </div>
-        <!-- END CART COMPARISON-->
+        <!-- END CART PRODUCT-->
       </section>
       <section>
         <div class="row justify-content-center">
@@ -301,171 +303,187 @@
           <div class="specification__wrapper">
             <div class="specification__list">
               <ul>
-                        <li class="specification-item">
-                          <div class="specification-item__header">
-                            <div class="specification-item__option">
-                              <svg class="icon icon-option ">
-                                <use xlink:href="#icon-option"></use>
-                              </svg>
-                            </div>
-                            <div class="specification-item__title">Общетактовая частота</div>
-                            <div class="specification-item__vote">
-                              <div class="specification-item__comment">
-                                <svg class="icon icon-comments ">
-                                  <use xlink:href="#icon-comments"></use>
-                                </svg><span>27</span>
-                              </div>
-                              <div class="specification-item__count">
-                                <div class="counter" data-js="count">
-                                  <button class="counter__minus" type="button" data-button="minus">
-                                    <svg class="icon icon-minus ">
-                                      <use xlink:href="#icon-minus"></use>
-                                    </svg>
-                                  </button><span class="counter__number" data-count="area">1</span>
-                                  <button class="counter__plus" type="button" data-button="plus">
-                                    <svg class="icon icon-plus ">
-                                      <use xlink:href="#icon-plus"></use>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="specification-item__body">
-                            <div class="specification-item__info">
-                              <p>На 5,03% быстрее тактовая частота процессора.;</p>
-                            </div>
-                            <div class="specification-item__filling">
-                              <div class="specification-item__filling-text">4 х 2,8 ГГц и 4 х 1,77 ГГц (Qualcomm Snapdragon 845)</div>
-                              <div class="specification-item__filling-graph"><span style="width: 85%"></span></div>
-                            </div>
-                          </div>
+                <li class="specification-item">
+                  <div class="specification-item__header">
+                    <div class="specification-item__option">
+                      <svg class="icon icon-option ">
+                        <use xlink:href="#icon-option"></use>
+                      </svg>
+                    </div>
+                    <div class="specification-item__title">Общетактовая частота</div>
+                    <div class="specification-item__vote">
+                      <div class="specification-item__comment">
+                        <svg class="icon icon-comments ">
+                          <use xlink:href="#icon-comments"></use>
+                        </svg><span>27</span>
+                      </div>
+                      <div class="specification-item__count">
+                        <div class="counter" data-js="count">
+                          <button class="counter__minus" type="button" data-button="minus">
+                            <svg class="icon icon-minus ">
+                              <use xlink:href="#icon-minus"></use>
+                            </svg>
+                          </button><span class="counter__number" data-count="area">1</span>
+                          <button class="counter__plus" type="button" data-button="plus">
+                            <svg class="icon icon-plus ">
+                              <use xlink:href="#icon-plus"></use>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specification-item__body">
+                    <div class="specification-item__info">
+                      <p>На 5,03% быстрее тактовая частота процессора.;</p>
+                    </div>
+                    <div class="specification-item__filling">
+                      <ul>
+                        <li>
+                          <div class="specification-item__filling-text">4 х 2,8 ГГц и 4 х 1,77 ГГц (Qualcomm Snapdragon 845)</div>
+                          <div class="specification-item__filling-graph"><span style="width: 85%"></span></div>
                         </li>
-                        <li class="specification-item">
-                          <div class="specification-item__header">
-                            <div class="specification-item__option">
-                              <svg class="icon icon-option ">
-                                <use xlink:href="#icon-option"></use>
-                              </svg>
-                            </div>
-                            <div class="specification-item__title">Общетактовая частота</div>
-                            <div class="specification-item__vote">
-                              <div class="specification-item__comment">
-                                <svg class="icon icon-comments ">
-                                  <use xlink:href="#icon-comments"></use>
-                                </svg><span>27</span>
-                              </div>
-                              <div class="specification-item__count">
-                                <div class="counter" data-js="count">
-                                  <button class="counter__minus" type="button" data-button="minus">
-                                    <svg class="icon icon-minus ">
-                                      <use xlink:href="#icon-minus"></use>
-                                    </svg>
-                                  </button><span class="counter__number" data-count="area">1</span>
-                                  <button class="counter__plus" type="button" data-button="plus">
-                                    <svg class="icon icon-plus ">
-                                      <use xlink:href="#icon-plus"></use>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="specification-item__body">
-                            <div class="specification-item__info">
-                              <p>На 5,03% быстрее тактовая частота процессора.;</p>
-                            </div>
-                            <div class="specification-item__filling">
-                              <div class="specification-item__filling-text">4 х 2,8 ГГц и 4 х 1,77 ГГц (Qualcomm Snapdragon 845)</div>
-                              <div class="specification-item__filling-graph"><span style="width: 85%"></span></div>
-                            </div>
-                          </div>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="specification-item">
+                  <div class="specification-item__header">
+                    <div class="specification-item__option">
+                      <svg class="icon icon-option ">
+                        <use xlink:href="#icon-option"></use>
+                      </svg>
+                    </div>
+                    <div class="specification-item__title">Общетактовая частота</div>
+                    <div class="specification-item__vote">
+                      <div class="specification-item__comment">
+                        <svg class="icon icon-comments ">
+                          <use xlink:href="#icon-comments"></use>
+                        </svg><span>27</span>
+                      </div>
+                      <div class="specification-item__count">
+                        <div class="counter" data-js="count">
+                          <button class="counter__minus" type="button" data-button="minus">
+                            <svg class="icon icon-minus ">
+                              <use xlink:href="#icon-minus"></use>
+                            </svg>
+                          </button><span class="counter__number" data-count="area">1</span>
+                          <button class="counter__plus" type="button" data-button="plus">
+                            <svg class="icon icon-plus ">
+                              <use xlink:href="#icon-plus"></use>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specification-item__body">
+                    <div class="specification-item__info">
+                      <p>На 5,03% быстрее тактовая частота процессора.;</p>
+                    </div>
+                    <div class="specification-item__filling">
+                      <ul>
+                        <li>
+                          <div class="specification-item__filling-text">4 х 2,8 ГГц и 4 х 1,77 ГГц (Qualcomm Snapdragon 845)</div>
+                          <div class="specification-item__filling-graph"><span style="width: 85%"></span></div>
                         </li>
-                        <li class="specification-item">
-                          <div class="specification-item__header">
-                            <div class="specification-item__option">
-                              <svg class="icon icon-option ">
-                                <use xlink:href="#icon-option"></use>
-                              </svg>
-                            </div>
-                            <div class="specification-item__title">Общетактовая частота</div>
-                            <div class="specification-item__vote">
-                              <div class="specification-item__comment">
-                                <svg class="icon icon-comments ">
-                                  <use xlink:href="#icon-comments"></use>
-                                </svg><span>27</span>
-                              </div>
-                              <div class="specification-item__count">
-                                <div class="counter" data-js="count">
-                                  <button class="counter__minus" type="button" data-button="minus">
-                                    <svg class="icon icon-minus ">
-                                      <use xlink:href="#icon-minus"></use>
-                                    </svg>
-                                  </button><span class="counter__number" data-count="area">1</span>
-                                  <button class="counter__plus" type="button" data-button="plus">
-                                    <svg class="icon icon-plus ">
-                                      <use xlink:href="#icon-plus"></use>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="specification-item__body">
-                            <div class="specification-item__info">
-                              <p>На 5,03% быстрее тактовая частота процессора.;</p>
-                            </div>
-                            <div class="specification-item__filling">
-                              <div class="specification-item__filling-text">4 х 2,8 ГГц и 4 х 1,77 ГГц (Qualcomm Snapdragon 845)</div>
-                              <div class="specification-item__filling-graph"><span style="width: 85%"></span></div>
-                            </div>
-                          </div>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="specification-item">
+                  <div class="specification-item__header">
+                    <div class="specification-item__option">
+                      <svg class="icon icon-option ">
+                        <use xlink:href="#icon-option"></use>
+                      </svg>
+                    </div>
+                    <div class="specification-item__title">Общетактовая частота</div>
+                    <div class="specification-item__vote">
+                      <div class="specification-item__comment">
+                        <svg class="icon icon-comments ">
+                          <use xlink:href="#icon-comments"></use>
+                        </svg><span>27</span>
+                      </div>
+                      <div class="specification-item__count">
+                        <div class="counter" data-js="count">
+                          <button class="counter__minus" type="button" data-button="minus">
+                            <svg class="icon icon-minus ">
+                              <use xlink:href="#icon-minus"></use>
+                            </svg>
+                          </button><span class="counter__number" data-count="area">1</span>
+                          <button class="counter__plus" type="button" data-button="plus">
+                            <svg class="icon icon-plus ">
+                              <use xlink:href="#icon-plus"></use>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specification-item__body">
+                    <div class="specification-item__info">
+                      <p>На 5,03% быстрее тактовая частота процессора.;</p>
+                    </div>
+                    <div class="specification-item__filling">
+                      <ul>
+                        <li>
+                          <div class="specification-item__filling-text">4 х 2,8 ГГц и 4 х 1,77 ГГц (Qualcomm Snapdragon 845)</div>
+                          <div class="specification-item__filling-graph"><span style="width: 85%"></span></div>
                         </li>
-                        <li class="specification-item">
-                          <div class="specification-item__header">
-                            <div class="specification-item__option">
-                              <svg class="icon icon-option ">
-                                <use xlink:href="#icon-option"></use>
-                              </svg>
-                            </div>
-                            <div class="specification-item__title">Общетактовая частота</div>
-                            <div class="specification-item__vote">
-                              <div class="specification-item__comment">
-                                <svg class="icon icon-comments ">
-                                  <use xlink:href="#icon-comments"></use>
-                                </svg><span>27</span>
-                              </div>
-                              <div class="specification-item__count">
-                                <div class="counter" data-js="count">
-                                  <button class="counter__minus" type="button" data-button="minus">
-                                    <svg class="icon icon-minus ">
-                                      <use xlink:href="#icon-minus"></use>
-                                    </svg>
-                                  </button><span class="counter__number" data-count="area">1</span>
-                                  <button class="counter__plus" type="button" data-button="plus">
-                                    <svg class="icon icon-plus ">
-                                      <use xlink:href="#icon-plus"></use>
-                                    </svg>
-                                  </button>
-                                </div>
-                              </div>
-                            </div>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+                <li class="specification-item">
+                  <div class="specification-item__header">
+                    <div class="specification-item__option">
+                      <svg class="icon icon-option ">
+                        <use xlink:href="#icon-option"></use>
+                      </svg>
+                    </div>
+                    <div class="specification-item__title">Общетактовая частота</div>
+                    <div class="specification-item__vote">
+                      <div class="specification-item__comment">
+                        <svg class="icon icon-comments ">
+                          <use xlink:href="#icon-comments"></use>
+                        </svg><span>27</span>
+                      </div>
+                      <div class="specification-item__count">
+                        <div class="counter" data-js="count">
+                          <button class="counter__minus" type="button" data-button="minus">
+                            <svg class="icon icon-minus ">
+                              <use xlink:href="#icon-minus"></use>
+                            </svg>
+                          </button><span class="counter__number" data-count="area">1</span>
+                          <button class="counter__plus" type="button" data-button="plus">
+                            <svg class="icon icon-plus ">
+                              <use xlink:href="#icon-plus"></use>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="specification-item__body">
+                    <div class="specification-item__info">
+                      <p>На 5,03% быстрее тактовая частота процессора.;</p>
+                    </div>
+                    <div class="specification-item__filling specification-item__filling_icon">
+                      <ul>
+                        <li>
+                          <div class="circle-icon circle-icon_red">
+                            <svg class="icon icon-close ">
+                              <use xlink:href="#icon-close"></use>
+                            </svg>
                           </div>
-                          <div class="specification-item__body">
-                            <div class="specification-item__info">
-                              <p>На 5,03% быстрее тактовая частота процессора.;</p>
-                            </div>
-                            <div class="specification-item__filling specification-item__filling_error">
-                              <div class="circle-icon circle-icon_red">
-                                <svg class="icon icon-close ">
-                                  <use xlink:href="#icon-close"></use>
-                                </svg>
-                              </div>
-                              <div class="specification-item__filling-text">4 х 2,9 ГГц и 4 х 1,9 ГГц (Samsung Exynos 9810)</div>
-                              <div class="specification-item__filling-graph specification-item__filling-graph_error"></div>
-                            </div>
-                          </div>
+                          <div class="specification-item__filling-text">4 х 2,9 ГГц и 4 х 1,9 ГГц (Samsung Exynos 9810)</div>
+                          <div class="specification-item__filling-graph specification-item__filling-graph_empty"></div>
                         </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
               </ul>
             </div>
             <div class="specification__more">

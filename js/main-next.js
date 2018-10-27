@@ -382,7 +382,7 @@ installVendor('js/vendor/vendors.js', function () {
                 var $down = $('.down').closest('li');
 
                 if ($down.toArray().some(function (el) {
-                    return el === e.target;
+                    return el === $target[0];
                 })) {
                     e.preventDefault();
                     if (!$target.hasClass('is-active')) $target.addClass('is-active');else $down.removeClass('is-active');
@@ -481,6 +481,8 @@ installVendor('js/vendor/vendors.js', function () {
                 };
 
                 var $target = $($headerDiff.data('target'));
+
+                if (!$target.length) return false;
 
                 $document.on('scroll', handlerScroll.throttle(50));
                 handlerScroll();
