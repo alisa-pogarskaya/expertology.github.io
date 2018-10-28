@@ -728,15 +728,21 @@
             flex-direction: row;
   }
 }
+.feature-comparison__graphic {
+  width: 100%;
+}
 @media (max-width: 1279px) {
   .feature-comparison__graphic {
-    max-width: 179px;
+    max-width: 100%;
   }
 }
 @media (max-width: 1279px) and (min-width: 768px) {
   .feature-comparison__graphic {
     margin-top: 50px;
   }
+}
+.chart_div {
+  width: 200px;
 }
 .feature-comparison__info {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
