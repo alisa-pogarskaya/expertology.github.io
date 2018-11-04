@@ -1,0 +1,866 @@
+/* ==========================================================================
+ *battle-comparison
+ *==========================================================================
+
+/* BEGIN CART PRODUCT
+
+.cart-product
+  display: flex
+  position: relative
+  border-radius: 10px
+  box-shadow: 0 0 15px 0 rgba(33, 33, 33, 0.05)
+  flex-flow: row wrap
+  margin-top: 30px
+
+@media (min-width: 768px)
+  .cart-product
+    margin: 20px auto 0
+
+@media (min-width: 1280px)
+  .cart-product
+    max-width: 1152px
+    height: 555px
+
+.cart-product__col-1
+  position: relative
+  max-width: 100%
+  flex-basis: 100%
+  order: 2
+
+@media (min-width: 768px)
+  .cart-product__col-1
+    order: 1
+    max-width: 55%
+    flex-basis: 55%
+
+@media (min-width: 992px)
+  .cart-product__col-1
+    height: 100%
+
+.cart-product__col-2
+  position: relative
+  max-width: 100%
+  flex-basis: 100%
+  order: 1
+
+@media (min-width: 768px)
+  .cart-product__col-2
+    order: 2
+    max-width: 45%
+    flex-basis: 45%
+
+@media (min-width: 992px)
+  .cart-product__col-2
+    height: 100%
+
+.cart-product__top-buttons
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  text-align: center
+  -webkit-transform: translateY(-50%)
+  transform: translateY(-50%)
+  z-index: 2
+
+@media (min-width: 768px)
+  .cart-product__top-buttons
+    padding-left: 85px
+    text-align: left
+
+@media (min-width: 1280px)
+  .cart-product__top-buttons
+    padding-left: 115px
+
+.cart-product__compare-buttons
+  position: absolute
+  top: 36px
+  left: 55%
+  -webkit-transform: translateX(-50%)
+  transform: translateX(-50%)
+  z-index: 2
+
+@media (max-width: 767px)
+  .cart-product__compare-buttons
+    display: none
+
+.cart-product__info
+  padding: 20px 15px 15px
+  height: 100%
+
+@media (min-width: 768px)
+  .cart-product__info
+    padding: 93px 85px 77px 65px
+
+@media (min-width: 1280px)
+  .cart-product__info
+    padding: 88px 115px 40px
+
+.cart-product__image
+  text-align: center
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 45px 65px 25px
+  height: 100%
+  img
+    max-height: 100%
+
+@media (min-width: 768px)
+  .cart-product__image
+    padding: 60px 55px
+
+.cart-product__title
+  font-weight: 400
+  font-size: 36px
+  font-family: Arvo, serif
+  line-height: 1.28
+  margin: 0.2em 0 0.7em
+
+@media (min-width: 768px)
+  .cart-product__title
+    margin: 0.2em 0 0.83em
+
+.cart-product__tag
+  font-family: Montserrat, Helvetica, Arial, sans-serif
+  font-size: 10px
+  font-weight: 700
+  letter-spacing: 2.4px
+  color: #9fa3a7
+  span
+    border-bottom: 1px solid rgba(151, 151, 151, 0.3)
+
+@media (min-width: 1280px)
+  .cart-product__tag span
+    position: relative
+    border: none
+    &:before
+      content: ''
+      display: block
+      height: 1px
+      width: 100%
+      position: absolute
+      right: 0
+      top: -7px
+      background-color: rgba(151, 151, 151, 0.3)
+
+.cart-product__star
+  color: #9fa3a7
+  letter-spacing: normal
+  margin: 10px 0
+  .icon
+    fill: #ffc80a
+    margin-right: 7px
+
+.cart-product__rating
+  height: 13px
+  background-image: linear-gradient(to right, #fff134, #ffc80a)
+  border-radius: 40px
+  margin: 10px 0
+
+.cart-product__text
+  margin: 32px 0
+
+.cart-product__voice
+  max-width: 341px
+  padding: 23px 20px
+  border: 1px solid #d9d9d9
+  font-family: Montserrat, Helvetica, Arial, sans-serif
+  letter-spacing: 2.4px
+  font-weight: 700
+  font-size: 12px
+
+@media (max-width: 767px)
+  .cart-product__voice
+    margin: 0 auto
+
+@media (min-width: 768px)
+  .cart-product__voice
+    padding: 23px 15px
+
+@media (min-width: 1280px)
+  .cart-product__voice
+    padding: 23px 37px
+
+.cart-product__voting
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.cart-product__voting-button
+  font-size: 0
+  .button
+    border: solid 1px rgba(151, 151, 151, 0.1)
+    &:hover
+      border-color: rgba(151, 151, 151, 0.5)
+
+@media (min-width: 1280px)
+  .cart-product__voting-button .button
+    margin-left: 9px
+    &:first-child
+      margin-left: 0
+
+/* END CART PRODUCT
+/* BEGIN CART COMPARISON
+
+.cart-comparison
+  background-color: #fcfcfc
+
+.cart-comparison__wrapper
+  display: flex
+  align-items: flex-start
+  justify-content: center
+  flex-wrap: wrap
+
+@media (min-width: 768px)
+  .cart-comparison__wrapper
+    border-bottom: solid 1px #f2f2f2
+
+.cart-comparison__item
+  padding: 30px 10px 30px
+
+@media (max-width: 767px)
+  .cart-comparison__item
+    border-bottom: solid 1px #f2f2f2
+
+@media (min-width: 768px)
+  .cart-comparison__item
+    padding: 73px 46px 30px
+
+@media (max-width: 767px)
+  .cart-comparison__item
+    width: 100%
+
+@media (min-width: 1280px)
+  .cart-comparison__item
+    padding: 113px 82px 30px
+
+@media (min-width: 768px)
+  .cart-comparison__item:first-child
+    border-right: 1px solid #f2f2f2
+
+@media (max-width: 767px)
+  .cart-comparison__item:last-child
+    border-bottom: none
+
+.cart-comparison__photo
+  width: 205px
+  height: 208px
+  position: relative
+  margin: 0 auto 28px
+
+@media (min-width: 1280px)
+  .cart-comparison__photo
+    width: 340px
+    height: 345px
+
+@media (max-width: 1279px)
+  .cart-comparison
+    .cart-rating
+      width: 205px
+    .cart-rating__voting
+      flex-wrap: wrap
+      justify-content: center
+    .cart-rating__voting-button
+      padding-top: 10px
+      .button
+        margin: 0 5px
+
+.cart-comparison__image
+  width: 100%
+  height: 100%
+  position: relative
+  overflow: hidden
+  background-color: #ededed
+  img
+    position: absolute
+    max-width: 100%
+    max-height: 100%
+    left: 50%
+    top: 50%
+    -webkit-transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)
+
+.cart-comparison__title
+  font-family: Arvo, Helvetica, Arial, sans-serif
+  font-size: 26px
+  line-height: 1.85
+  text-align: right
+  position: absolute
+  top: 0
+  z-index: 2
+
+.cart-comparison__title_right
+  right: -20px
+
+.cart-comparison__title_left
+  left: -20px
+
+@media (min-width: 1280px)
+  .cart-comparison__title
+    top: 20px
+  .cart-comparison__title_right
+    right: -40px
+  .cart-comparison__title_left
+    left: -40px
+
+/* END CART COMPARISON
+/* BEGIN CART RATING
+
+.cart-rating
+  max-width: 340px
+  padding: 23px 20px
+  border: 1px solid #d9d9d9
+  font-family: Montserrat, Helvetica, Arial, sans-serif
+  letter-spacing: 2.4px
+  font-weight: 700
+  font-size: 12px
+
+@media (max-width: 767px)
+  .cart-rating
+    margin: 0 auto
+
+@media (min-width: 768px)
+  .cart-rating
+    padding: 23px 15px
+
+@media (min-width: 1280px)
+  .cart-rating
+    padding: 23px 37px
+
+.cart-rating__star
+  color: #9fa3a7
+  letter-spacing: normal
+  margin: 10px 0
+  .icon
+    fill: #ffc80a
+    margin-right: 7px
+
+.cart-rating__value
+  height: 13px
+  background-image: linear-gradient(to right, #fff134, #ffc80a)
+  border-radius: 40px
+  margin: 10px 0
+
+.cart-rating__text
+  margin: 32px 0
+
+.cart-rating__voting
+  display: flex
+  align-items: center
+  justify-content: space-between
+
+.cart-rating__voting-button
+  font-size: 0
+  .button
+    border: solid 1px rgba(151, 151, 151, 0.1)
+    &:hover
+      border-color: rgba(151, 151, 151, 0.5)
+
+@media (min-width: 1280px)
+  .cart-rating__voting-button .button
+    margin-left: 9px
+    &:first-child
+      margin-left: 0
+
+/* END CART RATING
+/* BEGIN FEATURE COMPARISON
+
+.feature-comparison
+  border-top: solid 1px #ededed
+  border-bottom: solid 1px #ededed
+
+@media (min-width: 768px)
+  .feature-comparison
+    margin: 45px 0 40px
+    padding-bottom: 130px
+
+.feature-comparison__wrapper
+  max-width: 1240px
+  margin: 0 auto
+
+.feature-comparison__nav
+  margin-top: 12px
+  max-width: 200px
+  font-size: 0
+  font-family: Montserrat, Helvetica, Arial, sans-serif
+  font-weight: 700
+  letter-spacing: 2.4px
+  text-transform: uppercase
+  ul, li
+    margin: 0
+    padding: 0
+    list-style-type: none
+  ul
+    border-top: 2px solid #ededed
+    border-bottom: 2px solid #ededed
+    counter-reset: section
+  li
+    border-bottom: 2px solid #ededed
+    padding: 5px 0
+    position: relative
+    &:before
+      counter-increment: section
+      content: counters(section, ".")
+      display: inline-block
+      width: 15px
+      height: 15px
+      background-color: #ffc80a
+      position: absolute
+      top: 12px
+      left: 23px
+      font-size: 10px
+      z-index: 2
+      text-align: center
+      line-height: 15px
+      border-radius: 50%
+      padding: 0 4px
+    &:last-child
+      border-bottom: none
+    &:hover a
+      &:after, span
+        background-color: #f7f7f7
+    &.is-active a
+      &:after, span
+        background-color: #ededed
+    a
+      font-size: 10px
+      text-decoration: none
+      display: inline-block
+      line-height: 1
+      position: relative
+      overflow: hidden
+      width: calc(100% + 7px)
+      padding-right: 14px
+      white-space: nowrap
+      span
+        display: block
+        position: relative
+        z-index: 1
+        padding: 10px 0 8px 50px
+        border-radius: 5px
+        transition: background-color 0.2s
+      &:after
+        content: ''
+        display: block
+        position: absolute
+        top: 50%
+        right: 0
+        margin-right: 51px
+        width: 100px
+        height: 100px
+        border-radius: 5px
+        margin-left: 0px
+        -webkit-transform: rotate(45deg) translateY(-71%) skew(15deg, 15deg)
+        transform: rotate(45deg) translateY(-71%) skew(15deg, 15deg)
+        transition: background-color 0.2s
+
+@media (max-width: 767px)
+  .feature-comparison__nav
+    margin-left: auto
+    margin-right: auto
+
+@media (min-width: 768px)
+  .feature-comparison__nav
+    max-width: 270px
+    margin-top: 33px
+
+@media (min-width: 1280px)
+  .feature-comparison__nav
+    width: 90%
+
+@media (min-width: 768px)
+  .feature-comparison__nav li:before
+    top: 21px
+
+@media (min-width: 768px)
+  .feature-comparison__nav li a span
+    padding: 20px 0 16px 50px
+
+.feature-comparison__data
+  display: flex
+  align-items: center
+  justify-content: space-around
+  flex-direction: column
+  height: 100%
+
+@media (max-width: 767px)
+  .feature-comparison__data
+    padding: 20px 0 10px
+
+@media (min-width: 768px)
+  .feature-comparison__data
+    border-bottom: 2px solid #ededed
+
+@media (min-width: 1280px)
+  .feature-comparison__data
+    flex-direction: row
+
+@media (max-width: 1279px)
+  .feature-comparison__graphic
+    max-width: 179px
+
+@media (max-width: 500px)
+  .feature-comparison__graphic
+    max-width: 300px
+
+@media (max-width: 1279px) and (min-width: 768px)
+  .feature-comparison__graphic
+    margin-top: 50px
+
+.feature-comparison__info
+  font-family: Montserrat, Helvetica, Arial, sans-serif
+  font-size: 12px
+  font-weight: 700
+  color: #9fa3a7
+  letter-spacing: 2.4px
+  max-width: 250px
+  ul
+    margin: 0
+    padding: 0
+
+.feature-comparison__info-item
+  list-style-type: none
+  margin: 20px 0
+  padding-left: 45px
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 10px
+    display: block
+    width: 15px
+    height: 15px
+    border-radius: 50%
+
+@media (min-width: 768px)
+  .feature-comparison__info-item
+    margin: 29px 0
+
+.feature-comparison__info-item_yellow:before
+  background-color: #ffc80a
+
+.feature-comparison__info-item_red:before
+  background-color: #f05638
+
+.feature-comparison__info-item
+  dl, dt
+    margin: 0
+  dd
+    margin: 0
+    font-size: 18px
+    font-family: Arvo, Helvetica, Arial, sans-serif
+    color: #000
+    font-weight: 400
+
+@media (min-width: 1280px)
+  .feature-comparison__info-item
+    dl, dt, dd
+      display: inline-block
+
+@media (max-width: 767px)
+  .feature-comparison__info-item dt
+    font-size: 10px
+
+@media (min-width: 768px)
+  .feature-comparison__info-item dd
+    font-size: 26px
+
+@media (min-width: 1280px)
+  .feature-comparison__info-item dd
+    margin-left: 15px
+
+.feature-comparison__info_footer
+  max-width: 100%
+  padding-top: 15px
+  text-transform: uppercase
+  .feature-comparison__info-item
+    display: inline-block
+    margin: 0
+    padding: 0
+    &:first-child
+      margin-left: 0
+    &:before
+      content: none
+
+@media (max-width: 767px)
+  .feature-comparison__info_footer
+    width: 100%
+    border-top: 1px solid #ededed
+    white-space: nowrap
+
+@media (min-width: 768px)
+  .feature-comparison__info_footer
+    position: absolute
+    top: 100%
+    right: 0
+    padding-top: 35px
+
+@media (min-width: 768px)
+  .feature-comparison__info_footer .feature-comparison__info-item
+    margin-left: 40px
+
+@media (min-width: 1280px)
+  .feature-comparison__info_footer .feature-comparison__info-item
+    margin-left: 60px
+
+/* END FEATURE COMPARISON
+/* BEGIN OFFER BLOCK
+
+.offer-block
+  max-width: 480px
+  margin-left: auto
+  margin-right: auto
+  padding: 45px 10px 35px
+  border-radius: 10px
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.05)
+  background-color: #fff
+
+@media (min-width: 1280px)
+  .offer-block
+    max-width: 800px
+    padding-left: 160px
+    padding-right: 160px
+
+.offer-block__title
+  text-align: center
+  > *
+    margin-top: 0
+
+.offer-block__content
+  padding-top: 10px
+
+@media (min-width: 1280px)
+  .offer-block__row
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+
+.offer-block__col
+  padding: 0 10px
+
+@media (min-width: 1280px)
+  .offer-block__col
+    flex-basis: 47%
+    flex-grow: 1
+    max-width: 47%
+
+.offer-block_kind-1
+  padding: 20px 5px 30px
+
+@media (min-width: 768px)
+  .offer-block_kind-1
+    padding: 20px 80px 30px
+
+@media (min-width: 1280px)
+  .offer-block_kind-1
+    padding: 15px 36px
+
+/* END OFFER BLOCK
+/* BEGIN REVIEWS
+
+.reviews__wrapper
+  max-width: 490px
+  margin: 0 auto
+
+@media (min-width: 1280px)
+  .reviews__wrapper
+    max-width: 800px
+
+.reviews__list
+  margin: 20px 0
+  ul
+    padding: 0
+    margin: 0
+
+@media (min-width: 768px)
+  .reviews__list
+    margin: 50px 0
+
+.reviews-item
+  margin: 20px 0
+  padding-left: 93px
+  position: relative
+  list-style-type: none
+  &:last-child .reviews-item__info
+    padding-bottom: 0
+    border: none
+
+@media (min-width: 768px)
+  .reviews-item
+    margin: 40px 0
+    padding-left: 100px
+
+.reviews-item__photo
+  position: absolute
+  top: 0
+  left: 0
+  width: 65px
+  height: 65px
+  border-radius: 50%
+  overflow: hidden
+  background-color: #ededed
+  img
+    max-width: 100%
+    height: 100%
+    position: absolute
+    top: 50%
+    left: 50%
+    -webkit-transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)
+
+.reviews-item__header
+  display: flex
+  align-items: center
+  justify-content: flex-start
+
+.reviews-item__name
+  text-transform: uppercase
+  font-size: 14px
+  font-weight: 700
+  font-family: Montserrat, Helvetica, Arial, sans-serif
+
+.reviews-item__data
+  margin-left: auto
+  font-family: 'Open Sans', Arial, sans-serif
+  font-size: 12px
+  color: #9fa3a7
+
+.reviews-item__info
+  border-bottom: 1px solid #ededed
+  padding-bottom: 10px
+
+@media (min-width: 768px)
+  .reviews-item__info
+    padding-bottom: 30px
+
+.reviews-item__body
+  font-family: 'Open Sans', Arial, sans-serif
+  line-height: 1.86
+  color: #212121
+  font-size: 14px
+  margin: 1em 0
+
+.reviews-item__footer
+  margin: 10px 0
+
+/* END REVIEWS
+/* BEGIN FORM
+
+input, select
+  height: 50px
+  padding: 0 23px
+  border: none
+  border-radius: 6px
+  width: 100%
+  font-size: 14px
+  outline: none
+  line-height: 1.86
+  background-color: #ededed
+
+@media (min-width: 768px)
+  input, select
+    padding-left: 32px
+    padding-right: 32px
+
+input::-webkit-input-placeholder, select::-webkit-input-placeholder, input::-moz-placeholder, select::-moz-placeholder, input:-ms-input-placeholder, select:-ms-input-placeholder, input:-moz-placeholder, select:-moz-placeholder
+  color: #9fa3a7
+
+textarea
+  min-height: 97px
+  padding: 15px 23px
+  border: none
+  border-radius: 6px
+  max-width: 100%
+  width: 100%
+  font-size: 14px
+  outline: none
+  resize: vertical
+  line-height: 1.86
+  background-color: #ededed
+  &::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &:-moz-placeholder
+    color: #9fa3a7
+
+@media (min-width: 768px)
+  textarea
+    padding-left: 32px
+    padding-right: 32px
+
+.form
+  margin-top: 35px
+  font-size: 14px
+
+@media (min-width: 768px)
+  .form
+    margin: 48px 0
+
+.form_field
+  margin-bottom: 10px
+
+.form_field_input
+  position: relative
+  font-size: 0
+
+.form_field.error
+  color: #f05638
+  .form_field_input input
+    color: #f05638
+
+.form_field_empty-label
+  .form_field_name
+    height: 36px
+    border-top-left-radius: 6px
+    border-top-right-radius: 6px
+    background-color: #e4e4e5
+    padding: 8px 32px
+  input, textarea
+    border-top-left-radius: 0
+    border-top-right-radius: 0
+
+.form_submit
+  margin-top: 20px
+  display: flex
+  align-items: center
+  justify-content: center
+
+@media (max-width: 767px)
+  .form_submit
+    margin-top: 35px
+    .rating
+      display: none
+
+@media (min-width: 768px)
+  .form_submit
+    justify-content: space-between
+
+@media (min-width: 768px)
+  .form_with-button
+    padding-left: 94px
+    position: relative
+
+@media (max-width: 767px)
+  .form_button
+    text-align: center
+    margin-bottom: 20px
+
+@media (min-width: 768px)
+  .form_button
+    position: absolute
+    left: 0
+    top: -10px
+
+.form_button .button
+  width: 65px
+  height: 65px
+  background-color: #ededed
+
+.form-reviews
+  max-width: 490px
+  margin: 0 auto
+
+@media (min-width: 1280px)
+  .form-reviews
+    max-width: 800px
+
+/* END FORM

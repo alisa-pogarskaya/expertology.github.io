@@ -3,129 +3,129 @@
   ========================================================================== */
 
   .about-title {
-  	margin: 100px 0px 16px 0px;
+    margin: 100px 0px 16px 0px;
   }
   @media (max-width: 320px) {
-	 .about-title {
-  	margin: 40px 0px 16px 0px;
-  	}
+   .about-title {
+    margin: 40px 0px 16px 0px;
+    }
   }
   .about-title__mini {
-  	width: 38%;
-  	font-size: 14px;
-  	text-align: center;
-  	padding-bottom: 45px;
-  	margin: 0 auto;
+    width: 38%;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 45px;
+    margin: 0 auto;
   }
   @media (max-width: 320px) {
-	 .about-title__mini {
-  	width: 90%;
-  	font-size: 14px;
-  	text-align: center;
-  	padding-bottom: 20px;
-  	margin: 0 auto;
-  	}
+   .about-title__mini {
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    }
   }
   .about-infografica {
-  	text-align: center;
+    text-align: center;
   }
    @media (max-width: 320px) {
-	 .about-infografica {
-  	margin-bottom: 20px;
+   .about-infografica {
+    margin-bottom: 20px;
   }
   }
   .about-infografica--image-block {
-  	position: relative;
-  	width: 60px;
-	  height: 60px;
-	  margin: 0 auto;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
   }
   .about-infografica--image {
-		display: block;
-	  width: 60px;
-	  height: 60px;
-	  margin: 0 auto;
-	  border-radius: 50%;
-	  background-color: #FFC80A;
-	  overflow: hidden;
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #FFC80A;
+    overflow: hidden;
   }
   .about-infografica--image-icone {
-  	position: absolute;
-  	top: 15%;
-  	left: 35%;
+    position: absolute;
+    top: 15%;
+    left: 35%;
   }
   .about-infografica--title {
-  	display: block;
-		font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	  font-size: 12px;
-	  font-weight: 700;
-	  letter-spacing: 2.4px;
-	  margin: 20px 0 12px 0;
-	  text-transform: uppercase;
+    display: block;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    margin: 20px 0 12px 0;
+    text-transform: uppercase;
   }
   .about-infografica--text {
-  	display: block;
-  	margin: 0 auto;
-  	width: 90%;
-  	font-size: 14px;
-  	line-height: 1.6;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 14px;
+    line-height: 1.6;
   }
   .rating-process {
-		margin-bottom: 80px;
+    margin-bottom: 80px;
   }
   .rating-process__image {
- 		z-index: 10;
-  	width: 100%;
-  	border-radius: 6px;
+    z-index: 10;
+    width: 100%;
+    border-radius: 6px;
   }
   .rating-process__text-cont-right {
-  	margin-left: 80px;
+    margin-left: 80px;
   }
   .rating-process__text-cont--left {
-  	margin-right: 80px;
+    margin-right: 80px;
   }
   .rating-process__title {
-		display: block;
-	  margin: 20px 0px;
-	  font-family: Arvo, sans-serif;
-	  font-weight: normal;
-	  font-size: 22px;
-	  color: #212121;
+    display: block;
+    margin: 20px 0px;
+    font-family: Arvo, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    color: #212121;
   }
   .rating-process__title--left {
-  	text-align: right;
+    text-align: right;
   }
   .rating-process__text--left {
-  	text-align: right;
+    text-align: right;
   }
   .rating-process__number-cont {
-		position: relative;
+    position: relative;
   }
   .rating-process__number {
-  	position: absolute;
-  	top: -250px;
-  	left: -600px;
-  	z-index: 0;
-  	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  	font-weight: bold;
-  	font-size: 390px;
-  	color: rgba(33,33,33,.05);
+    position: absolute;
+    top: -250px;
+    left: -600px;
+    z-index: 0;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 390px;
+    color: rgba(33,33,33,.05);
   }
   .rating-process__number-left {
-		position: absolute;
-  	top: -250px;
-  	left: -900px;
+    position: absolute;
+    top: -250px;
+    left: -900px;
   }
   .rating-process__number-right {
-  	position: absolute;
-  	top: -250px;
-  	left: -600px;
+    position: absolute;
+    top: -250px;
+    left: -600px;
   }
   @media (max-width: 768px) {
-	 .rating-process__number {
-  	size: 200px;
-  	display: none;
-  	}
-	}
+   .rating-process__number {
+    size: 200px;
+    display: none;
+    }
+  }
 
   

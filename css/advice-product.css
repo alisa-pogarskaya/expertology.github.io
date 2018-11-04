@@ -3,18 +3,18 @@
   ========================================================================== */
 
 .title-underline {
-    padding-bottom: 20px;
-    border-bottom: 1px solid #F2F2F2;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #F2F2F2;
 }
 .paragrafe-style__cont {
   margin: 0px 10px;
 }
 .time-style {
   display: block;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   font-weight: normal;
-	color: #9FA3A7;
+  color: #9FA3A7;
 }
 @media (max-width: 320px) {
   .time-style {
