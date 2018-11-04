@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Notebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Style-Guide-/-UI-Kit" transform="translate(-338.000000, -4705.000000)">
+            <rect fill="#FEFEFE" x="0" y="0" width="1350" height="5001"></rect>
+            <g id="07.-Icons-🎲" transform="translate(38.000000, 4548.000000)" fill="#353535">
+                <g id="Icon-Samples" transform="translate(0.000000, 65.000000)">
+                    <g id="Notebook" transform="translate(303.000000, 102.000000)">
+                        <g id="Shape">
+                            <path d="M53.987,37.115 C53.987,39.258 52.344,41.002 50.324,41.002 L3.665,41.002 C1.644,41.002 0,39.258 0,37.115 L0,36.853 L4.061,29.674 L4.061,7.452 L4.061,4.912 C4.061,2.203 6.184,0 8.795,0 L45.293,0 C47.904,0 50.027,2.203 50.027,4.912 L50.027,7.452 L50.027,7.802 L50.027,29.195 L53.987,36.874 L53.987,37.115 L53.987,37.115 Z M48.014,7.452 L48.014,4.912 C48.014,3.304 46.793,1.997 45.293,1.997 L8.795,1.997 C7.295,1.997 6.074,3.304 6.074,4.912 L6.074,7.452 L6.074,28.791 L48.014,28.791 L48.014,7.802 L48.014,7.452 L48.014,7.452 Z M48.62,30.851 L5.704,30.851 L3.198,35.281 L50.905,35.281 L48.62,30.851 L48.62,30.851 Z M51.935,37.278 L2.071,37.278 L2.071,37.274 L2.026,37.352 C2.129,38.283 2.824,39.005 3.665,39.005 L50.324,39.005 C51.169,39.005 51.868,38.273 51.963,37.334 L51.935,37.278 L51.935,37.278 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
