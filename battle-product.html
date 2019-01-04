@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/gui.css?v=0.0.0" type="text/css">
     <script type="text/javascript" src="js/main-next.js?v=0.0.0" async defer></script>
     <script src="js/map.js"></script>
+    <script src="js/main.js"></script>
     <script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoWBY-Gh17JaPwIBcEmv_lZOucvuAf2R0&callback=initMap"></script>
         <!--Load the AJAX API-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -435,7 +436,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="specification-item">
+                <li class="specification-item" id="hidden1" style="display: none;">
                   <div class="specification-item__header">
                     <div class="specification-item__option">
                       <svg class="icon icon-option ">
@@ -487,7 +488,7 @@
               </ul>
             </div>
             <div class="specification__more">
-              <button class="button button_yellow" type="button">ЕЩЕ ХАРАКТЕРИСТИКИ</button>
+              <button class="button button_yellow" onclick="view('hidden1'); return false" type="button">ЕЩЕ ХАРАКТЕРИСТИКИ</button>
             </div>
           </div>
         </div>
