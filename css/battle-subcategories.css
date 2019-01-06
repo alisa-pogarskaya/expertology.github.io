@@ -18,12 +18,15 @@
   border: 1px solid #EDEDED;
   border-radius: 6px; }
 
+.cart-winner__title {
+  margin: 21px 0px 27px 0px;
+  font-size: 22px; }
+
 @media (max-width: 768px) {
   .cart-winner {
     padding: 10% 13%; }
   .cart-winner__title {
-    margin: 10% 0;
-    font-size: 22px; }
+    margin: 10% 0; }
   .winner-col {
     margin-left: 10%; } }
 
@@ -31,8 +34,7 @@
   .cart-winner {
     padding: 10% 17%; }
   .cart-winner__title {
-    margin: 15% 0;
-    font-size: 22px; }
+    margin: 15% 0; }
   .winner-col {
     margin-left: 10%; } }
 
