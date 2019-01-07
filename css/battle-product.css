@@ -68,3 +68,14 @@
 
 .cart-comparison__voice--product-comparison {
   max-width: 100%; }
+
+#tabs .hide {
+  display: none; }
+
+#tabs .show {
+  display: block; }
+
+.tabContent {
+  display: none; }
+  .tabContent.active {
+    display: block; }

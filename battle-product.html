@@ -24,7 +24,9 @@
     <link rel="stylesheet" href="css/bootstrap-grid-col-18.css" type="text/css">
     <link rel="stylesheet" href="css/main-next.css?v=0.0.0" type="text/css">
     <link rel="stylesheet" href="css/battle-comparison.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/battle-product.css?v=0.0.0" type="text/css">
     <link rel="stylesheet" href="css/gui.css?v=0.0.0" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css?v=0.0.0" type="text/css">
     <script type="text/javascript" src="js/main-next.js?v=0.0.0" async defer></script>
     <script src="js/map.js"></script>
     <script src="js/main.js"></script>
@@ -195,25 +197,75 @@
         <div class="feature-comparison" data-js="feature-comparison">
           <div class="feature-comparison__wrapper">
             <div class="row justify-content-center">
-              <col-lg-4 class="col-md-5 col-xs-18">
-                <nav class="feature-comparison__nav">
-                  <ul>
-                    <li class="is-active"><a href="#feature-1" title="характеристика 1"><span>характеристика 1</span></a></li>
-                    <li><a href="#feature-2" title="характеристика 2"><span>характеристика 2</span></a></li>
-                    <li><a href="#feature-3" title="характеристика 3"><span>характеристика 3</span></a></li>
-                    <li><a href="#feature-4" title="характеристика 4"><span>характеристика 4</span></a></li>
-                    <li><a href="#feature-5" title="характеристика 5"><span>характеристика 5</span></a></li>
-                    <li><a href="#feature-6" title="характеристика 6"><span>характеристика 6</span></a></li>
-                    <li><a href="#feature-7" title="характеристика 7"><span>характеристика 7</span></a></li>
+              <div class="col-md-5 col-xs-18">
+                <nav class="feature-comparison__nav ">
+                  <ul id='tabs'>
+                    <li class="is-active">
+                      <a href=#" onclick="tabSwitch(1); return false;" class="tab" class="feature-active" title="характеристика 1"><span>характеристика 1</span></a>
+                    </li>
+                    <li>
+                      <a href=#" onclick="tabSwitch(2); return false;" class="tab" title="характеристика 2"><span>характеристика 2</span></a>
+                    </li>
+                    <li>
+                      <a href=#" onclick="tabSwitch(3); return false;" class="tab" title="характеристика 3"><span>характеристика 3</span></a>
+                    </li>
+                    <li>
+                      <a href=#" onclick="tabSwitch(4); return false;" class="tab" title="характеристика 4"><span>характеристика 4</span></a>
+                    </li>
+                    <li>
+                      <a href=#" onclick="tabSwitch(5); return false;" class="tab" title="характеристика 5"><span>характеристика 5</span></a>
+                    </li>
+                    <li>
+                      <a href=#" onclick="tabSwitch(6); return false;" class="tab" title="характеристика 6"><span>характеристика 6</span></a>
+                    </li>
+                    <li>
+                      <a href=#" onclick="tabSwitch(7); return false;" class="tab" title="характеристика 7"><span>характеристика 7</span></a>
+                    </li>
                   </ul>
                 </nav>
-              </col-lg-4>
-              <div class="col-lg-12 col-md-11 col-xs-18">
-                <div class="feature-comparison__data">
-                  <div id="piechart_3d"></div>
-                  <div class="feature-comparison__graphic">
+              </div>
+              <div class="col-sm-12">
+
+                <div>
+                  <!-- Tabs-1 -->
+                  <div class="tabContent active" id="tab_1">
+                    <p>Таб-1</p>
+                    <div id="piechart_3d" style="width: 79%; height: 30%;"></div>
+                    <div class="feature-comparison__graphic">
                     <!--Div that will hold the pie chart-->
+                    </div>
                   </div>
+
+                  <!-- Tabs-2 -->
+                  <div class="tabContent" id="tab_2">
+                    <p>Таб-2</p>
+                  </div>
+
+                  <!-- Tabs-3 -->
+                  <div class="tabContent" id="tab_3">
+                    <p>Таб-3</p>
+                  </div>
+
+                  <!-- Tabs-4 -->
+                  <div class="tabContent" id="tab_4">
+                    <p>Таб-4</p>
+                  </div>
+
+                  <!-- Tabs-5 -->
+                  <div class="tabContent" id="tab_5">
+                    <p>Таб-5</p>
+                  </div>
+
+                  <!-- Tabs-6 -->
+                  <div class="tabContent" id="tab_6">
+                    <p>Таб-6</p>
+                  </div>
+
+                  <!-- Tabs-7 -->
+                  <div class="tabContent" id="tab_7">
+                    <p>Таб-7</p>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -764,54 +816,129 @@
           <div class="col">
             <div class="diff">
               <div class="row justify-content-sm-around justify-content-md-between">
-                <div class="diff__item">
-                  <!-- Карточка для топа-->
-                  <div class="cart-popular cart-popular_top">
-                    <div class="cart-popular__tag">2 место</div>
-                    <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
-                    <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
-                    <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
-                        <svg class="icon icon-star svg-fill-color_yellow-10">
-                          <use xlink:href="#icon-star"></use>
-                        </svg>15 000 баллов</span></div>
+
+
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <div class="diff__item">
+                      <!-- Карточка для топа-->
+                      <div class="cart-popular cart-popular_top">
+                        <div class="cart-popular__tag">1 место</div>
+                        <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                        <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                        <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                            <svg class="icon icon-star svg-fill-color_yellow-10">
+                              <use xlink:href="#icon-star"></use>
+                            </svg>15 000 баллов</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="diff__item">
+                      <!-- Карточка для топа-->
+                      <div class="cart-popular cart-popular_top">
+                        <div class="cart-popular__tag">2 место</div>
+                        <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                        <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                        <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                            <svg class="icon icon-star svg-fill-color_yellow-10">
+                              <use xlink:href="#icon-star"></use>
+                            </svg>15 000 баллов</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="diff__item">
+                      <!-- Карточка для топа-->
+                      <div class="cart-popular cart-popular_top">
+                        <div class="cart-popular__tag">3 место</div>
+                        <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                        <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                        <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                            <svg class="icon icon-star svg-fill-color_yellow-10">
+                              <use xlink:href="#icon-star"></use>
+                            </svg>15 000 баллов</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="diff__item">
+                      <!-- Карточка для топа-->
+                      <div class="cart-popular cart-popular_top">
+                        <div class="cart-popular__tag">4 место</div>
+                        <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                        <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                        <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                            <svg class="icon icon-star svg-fill-color_yellow-10">
+                              <use xlink:href="#icon-star"></use>
+                            </svg>15 000 баллов</span></div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  <div class="item">
+                    <div class="diff__item">
+                      <!-- Карточка для топа-->
+                      <div class="cart-popular cart-popular_top">
+                        <div class="cart-popular__tag">5 место</div>
+                        <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                        <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                        <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                            <svg class="icon icon-star svg-fill-color_yellow-10">
+                              <use xlink:href="#icon-star"></use>
+                            </svg>15 000 баллов</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="diff__item">
+                      <!-- Карточка для топа-->
+                      <div class="cart-popular cart-popular_top">
+                        <div class="cart-popular__tag">6 место</div>
+                        <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                        <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                        <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                            <svg class="icon icon-star svg-fill-color_yellow-10">
+                              <use xlink:href="#icon-star"></use>
+                            </svg>15 000 баллов</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="diff__item">
+                      <!-- Карточка для топа-->
+                      <div class="cart-popular cart-popular_top">
+                        <div class="cart-popular__tag">7 место</div>
+                        <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                        <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                        <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                            <svg class="icon icon-star svg-fill-color_yellow-10">
+                              <use xlink:href="#icon-star"></use>
+                            </svg>15 000 баллов</span></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="diff__item">
+                      <!-- Карточка для топа-->
+                      <div class="cart-popular cart-popular_top">
+                        <div class="cart-popular__tag">8 место</div>
+                        <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
+                        <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
+                        <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
+                            <svg class="icon icon-star svg-fill-color_yellow-10">
+                              <use xlink:href="#icon-star"></use>
+                            </svg>15 000 баллов</span></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="diff__item">
-                  <!-- Карточка для топа-->
-                  <div class="cart-popular cart-popular_top">
-                    <div class="cart-popular__tag">2 место</div>
-                    <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
-                    <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
-                    <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
-                        <svg class="icon icon-star svg-fill-color_yellow-10">
-                          <use xlink:href="#icon-star"></use>
-                        </svg>15 000 баллов</span></div>
-                  </div>
-                </div>
-                <div class="diff__item">
-                  <!-- Карточка для топа-->
-                  <div class="cart-popular cart-popular_top">
-                    <div class="cart-popular__tag">2 место</div>
-                    <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
-                    <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
-                    <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
-                        <svg class="icon icon-star svg-fill-color_yellow-10">
-                          <use xlink:href="#icon-star"></use>
-                        </svg>15 000 баллов</span></div>
-                  </div>
-                </div>
-                <div class="diff__item">
-                  <!-- Карточка для топа-->
-                  <div class="cart-popular cart-popular_top">
-                    <div class="cart-popular__tag">2 место</div>
-                    <div class="cart-popular__image"><img src="./images/carts/tablet-1.jpg" alt=""></div>
-                    <div class="cart-popular__title">APPLR IPAD PRO 12,9 "WIFI + СОТОВАЯ 512 ГБ</div>
-                    <div class="cart-popular__footer"><span class="text-color_purple-10">ТОП 11%</span><span class="text-color_grey-10">
-                        <svg class="icon icon-star svg-fill-color_yellow-10">
-                          <use xlink:href="#icon-star"></use>
-                        </svg>15 000 баллов</span></div>
-                  </div>
-                </div>
+
+
+                
               </div>
             </div>
           </div>
@@ -928,5 +1055,35 @@
       </footer>
       <!-- END FOOTER-->
     </div>
+
+
+    <script>
+
+
+      $(document).ready(function() {
+
+          $('.owl-carousel').owlCarousel({
+              autoWidth: false,
+              loop:true,
+              margin:10,
+              nav:false,
+              lazyLoad: true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:3
+                  },
+                  1000:{
+                      items:4
+                  }
+              }
+          });
+
+      });
+    </script>
+
+
   </body>
 </html>
