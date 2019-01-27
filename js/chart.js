@@ -1,67 +1,114 @@
-google.charts.load("current", {packages:["corechart"]});
-      google.charts.setOnLoadCallback(drawChart);
-      function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['У 80% пользователей те же характеристики', 80],
-          ['У 20% этого нет', 20]
-        ]);
+// 1-й график
 
-        var options = {
-          pieHole: 0.5,
-          width: '100%',
-          height: '100%',
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
-        chart.draw(data, options);
-      }
-
-
-google.charts.load('current', {packages: ['corechart', 'bar']});
-google.charts.setOnLoadCallback(drawBasic);
-
-function drawBasic() {
-
-      var data = new google.visualization.DataTable();
-      data.addColumn('timeofday', 'Time of Day');
-      data.addColumn('number', 'Motivation Level');
-
-      data.addRows([
-        [{v: [8, 0, 0], f: '8 am'}, 1],
-        [{v: [9, 0, 0], f: '9 am'}, 2],
-        [{v: [10, 0, 0], f:'10 am'}, 3],
-        [{v: [11, 0, 0], f: '11 am'}, 4],
-        [{v: [12, 0, 0], f: '12 pm'}, 5],
-        [{v: [13, 0, 0], f: '1 pm'}, 6],
-        [{v: [14, 0, 0], f: '2 pm'}, 7],
-        [{v: [15, 0, 0], f: '3 pm'}, 8],
-        [{v: [16, 0, 0], f: '4 pm'}, 9],
-        [{v: [17, 0, 0], f: '5 pm'}, 10],
-      ]);
-
-      var options = {
-        title: 'Motivation Level Throughout the Day',
-        width: '100%',
-        height: '100%',
-        hAxis: {
-          title: 'Time of Day',
-          format: 'h:mm a',
-          viewWindow: {
-            min: [7, 30, 0],
-            max: [17, 30, 0]
-          }
-        },
-        vAxis: {
-          title: 'Rating (scale of 1-10)'
-        }
-      };
-
-      var chart = new google.visualization.ColumnChart(
-        document.getElementById('chart_div'));
-
-      chart.draw(data, options);
+var chartData = [
+    {
+        year: 1999,
+        value: 10
+    }, 
+    {
+        year: 2000,
+        value: 68
+    }, 
+    {
+        year: 2001,
+        value: 73
+    }, 
+    {
+        year: 2002,
+        value: 27
+    }, 
+    {
+        year: 2003,
+        value: 45
+    }, 
+    {
+        year: 2004,
+        value: 70
     }
+  ];
 
+var AMCHART_SERIAL_CONFIG = {
+    "type": "serial",
+    "startDuration": 0.5,   // loading animation, in second
+    "valueAxes": [{
+        maximum: 0,
+        minimum: 100,
+        "position": "left",
+        "title": "Score"
+    }],
+    "graphs": [{
+        "balloonText": "[[category]]: <b>[[value]]</b>",
+        "fillColorsField": "color",
+        "fillAlphas": 1,
+        "lineAlpha": 0.1,
+        "type": "column",
+        "valueField": "value"
+    }],
+    "depth3D": 20,
+    "angle": 30,
+    "chartCursor": {
+        "categoryBalloonEnabled": false,
+        "cursorAlpha": 0,
+        "zoomable": false
+    },
+    
+    dataProvider: chartData,
 
+    "categoryField": "year",
+    "categoryAxis": {
+        "gridPosition": "start",
+        "labelRotation": 45
+    }
+};
 
+// 2-й график
+
+var AMCHART_SERIAL_CONFIG_2 = {
+  "type": "pie",
+  "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+  "innerRadius": 40,
+  "titleField": "country",
+  "valueField": "litres",
+  "fontSize": 12,
+  "theme": "default",
+  "allLabels": [],
+  "balloon": {},
+  "titles": [],
+  "dataProvider": [
+    {
+      "country": "Czech Republic",
+      "litres": "356.9"
+    },
+    {
+      "country": "Ireland",
+      "litres": 131.1
+    },
+    {
+      "country": "Germany",
+      "litres": 115.8
+    },
+    {
+      "country": "Australia",
+      "litres": 109.9
+    },
+    {
+      "country": "Austria",
+      "litres": 108.3
+    },
+    {
+      "country": "UK",
+      "litres": 65
+    },
+    {
+      "country": "Belgium",
+      "litres": "20"
+    }
+  ]
+}
+
+// вывод графиков
+
+AmCharts.ready(function () {
+var chart1 = AmCharts.makeChart("chart1div", $.extend(true, {}, AMCHART_SERIAL_CONFIG, { "theme": "dark" }) );
+var chart2 = AmCharts.makeChart("chart2div", $.extend(true, {}, AMCHART_SERIAL_CONFIG_2, { "theme": "light" }) );
+    });

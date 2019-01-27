@@ -469,24 +469,12 @@
   .feature-comparison__nav li a span {
     padding: 20px 0 16px 50px; } }
 
-.feature-comparison__data {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  height: 100%; }
+.feature-comparison__piecart {
+  width: 500px; }
 
-@media (max-width: 767px) {
-  .feature-comparison__data {
-    padding: 20px 0 10px; } }
-
-@media (min-width: 768px) {
-  .feature-comparison__data {
-    border-bottom: 2px solid #ededed; } }
-
-@media (min-width: 1280px) {
-  .feature-comparison__data {
-    flex-direction: row; } }
+@media (max-width: 500px) {
+  .feature-comparison__piecart {
+    max-width: 300px; } }
 
 @media (max-width: 1279px) {
   .feature-comparison__graphic {
