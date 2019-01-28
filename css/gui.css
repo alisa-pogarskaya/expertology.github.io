@@ -1492,6 +1492,7 @@ h6, .h6 {
   background-color: #fff;
   border: 1px solid #ededed; }
   .cart-popular_top .cart-popular__title {
+    height: 70px;
     letter-spacing: 2.4px;
     padding-left: 13px;
     padding-right: 13px;
