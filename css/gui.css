@@ -1585,7 +1585,7 @@ h6, .h6 {
   font-weight: bold;
   font-size: 12px;
   text-transform: uppercase;
-  text-align: center;
+  /*text-align: center;*/
   white-space: nowrap; }
   .mark-info .icon {
     margin-right: 5px; }
