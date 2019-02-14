@@ -109,11 +109,6 @@ select {
   font-weight: normal;
   font-size: 14px; }
 
-.cart-popular_main .cart-popular__title--only {
-    display: inline-block;
-    min-height: 90px;
-  }
-
 /* BEGIN AD */
 .advertising {
   display: block;
