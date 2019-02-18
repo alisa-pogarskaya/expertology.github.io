@@ -1830,8 +1830,8 @@ h6, .h6 {
     max-width: 824px; } }
 
 .specification__list {
-  border-bottom: 1px solid #f2f2f2;
-  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #dfdfdf;
+  border-top: 1px solid #dfdfdf;
   margin-bottom: 40px; }
   .specification__list ul, .specification__list li {
     margin: 0;
@@ -1849,7 +1849,7 @@ h6, .h6 {
   text-align: center; }
 
 .specification-item {
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #dfdfdf;
   position: relative; }
   .specification-item:before {
     counter-increment: specification;
@@ -1884,7 +1884,7 @@ h6, .h6 {
   justify-content: flex-start;
   flex-direction: column;
   position: relative;
-  border-bottom: 1px solid #f2f2f2; }
+  border-bottom: 1px solid #dfdfdf; }
 
 @media (min-width: 768px) {
   .specification-item__header {
