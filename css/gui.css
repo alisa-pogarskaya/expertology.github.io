@@ -1308,6 +1308,7 @@ h6, .h6 {
 
 .cart-popular__title {
   display: block;
+  height: 30px;
   margin: 20px 0px;
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-weight: bold;
