@@ -84,7 +84,7 @@
   stroke: #8f76bc; }
 
 a {
-  text-decoration: underline;
+  text-decoration: none;
   outline: none;
   color: inherit; }
   a:hover, a:focus {
