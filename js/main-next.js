@@ -385,7 +385,14 @@ installVendor('js/vendor/vendors.js', function () {
                     return el === $target[0];
                 })) {
                     e.preventDefault();
-                    if (!$target.hasClass('is-active')) $target.addClass('is-active');else $down.removeClass('is-active');
+                    if (!$target.hasClass('is-active')) {
+                        $target.addClass('is-active');
+                    } else {
+                        const $childDown = $target.find('.down').slice(1).closest('li');
+
+                        $target.removeClass('is-active');
+                        if ($childDown.length) $childDown.removeClass('is-active');
+                    }
                 }
             }
         });

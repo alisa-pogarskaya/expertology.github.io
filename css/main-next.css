@@ -165,7 +165,8 @@ td, th {
   /*
    *   * Extends the .visuallyhidden class to allow the element
    *   * to be focusable when navigated to via the keyboard:
-   *   * https: */ }
+   *   * https://www.drupal.org/node/897638
+   */ }
   .visuallyhidden.__focusable:active, .visuallyhidden.__focusable:focus {
     clip: auto;
     height: auto;
@@ -686,21 +687,36 @@ section {
     letter-spacing: 3px; }
 
 @media (max-width: 1279px) {
-  .topmenu > li.is-active .submenu {
+  .topmenu li.is-active > .submenu {
     visibility: visible;
     opacity: 1;
-    transition: 0.5s ease-in;
+    transition: visibility 0.5s ease-in, opacity 0.5s ease-in, max-height 0.5s ease-in;
     max-height: 500px; } }
 
 @media (min-width: 1280px) {
-  .topmenu > li:hover .submenu {
+  .topmenu li:hover > .submenu {
     visibility: visible;
     opacity: 1;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
-    margin-top: 5px; } }
+    margin-top: 5px; }
+  .topmenu .submenu li:hover > .submenu {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    margin-top: 0; } }
 
 @media (min-width: 1280px) {
+  .topmenu .submenu li a.down {
+    position: relative; }
+    .topmenu .submenu li a.down:before {
+      content: '';
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      border-left: 5px solid #000;
+      border-bottom: 4px solid transparent;
+      border-top: 4px solid transparent;
+      transform: translateY(-50%); }
   .topmenu > li > a:before {
     content: "";
     position: absolute;
@@ -725,20 +741,29 @@ section {
     width: 100%; } }
 
 @media (max-width: 1279px) {
-  .topmenu li a.down {
-    padding-left: 15px; }
-    .topmenu li a.down:before {
-      content: '';
-      position: absolute;
-      left: 5px;
-      top: 13px;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-      border-top: 5px solid #fff;
-      transition: 0.5s; }
-  .topmenu li.is-active a.down:before {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg); } }
+  .topmenu .submenu {
+    padding-left: 5px;
+    padding-right: 5px; }
+  .topmenu li {
+    transition: padding-bottom 0.5s ease-out; }
+    .topmenu li a.down {
+      padding-left: 15px;
+      position: relative; }
+      .topmenu li a.down:before {
+        content: '';
+        position: absolute;
+        left: 5px;
+        top: 50%;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #fff;
+        transition: 0.5s;
+        transform: translateY(-50%); }
+    .topmenu li.is-active:last-child {
+      padding-bottom: 5px; }
+    .topmenu li.is-active > a.down:before {
+      -webkit-transform: translateY(-50%) rotate(180deg);
+      transform: translateY(-50%) rotate(180deg); } }
 
 @media (min-width: 1280px) {
   .topmenu li:hover a:before {
@@ -748,8 +773,7 @@ section {
 
 .submenu {
   visibility: hidden;
-  opacity: 0;
-  overflow: hidden; }
+  opacity: 0; }
   .submenu a {
     font-family: Montserrat, Helvetica, Arial, sans-serif;
     font-size: 10px;
@@ -763,8 +787,9 @@ section {
 
 @media (max-width: 1279px) {
   .submenu {
+    overflow: hidden;
     max-height: 0;
-    transition: 0.5s ease-out;
+    transition: visibility 0.5s ease-out, opacity 0.5s ease-out, max-height 0.5s ease-out;
     background-color: rgba(255, 255, 255, 0.15); } }
 
 @media (min-width: 1280px) {
@@ -781,14 +806,29 @@ section {
     box-sizing: border-box;
     -webkit-transform: translate(-50%, 20px);
     transform: translate(-50%, 20px);
-    transition: 0.3s; } }
+    transition: 0.3s; }
+    .submenu .submenu {
+      margin-top: 0;
+      border-radius: 0;
+      left: 100%;
+      top: 0;
+      -webkit-transform: translate(0, 20px);
+      transform: translate(0, 20px); } }
 
 @media (min-width: 1280px) {
   .submenu li {
     background-color: #fff;
-    border-bottom: 1px solid #ededed; }
+    border-bottom: 1px solid #ededed;
+    position: relative; }
+    .submenu li:first-child {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px; }
     .submenu li:last-child {
-      border: none; } }
+      border: none;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px; }
+    .submenu li .submenu li {
+      border-radius: 0; } }
 
 @media (min-width: 1280px) {
   .submenu a {
